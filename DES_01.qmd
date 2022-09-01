@@ -19,6 +19,30 @@ Aus der [Data-Literacy-Charta](https://www.stifterverband.org/charta-data-litera
 
 Gehen wir es an ...
 
+## Über mich &#x1F913;
+
+<!-- quarto install extension quarto-ext/fontawesome -->
+
+
+- Prof. Dr. rer.nat. Karsten Lübke (m), seit 2009 an der FOM Dortmund
+
+- Wie John Tukey sagte:
+
+> The best thing about being a statistician is that you get to play in everyone's backyard.
+
+- {{< fa envelope >}}:  [karsten.luebke@fom.de](<mailto:karsten.luebke@fom.de>)
+
+- {{< fa brands twitter >}}:  [@luebby42](https://twitter.com/luebby42)
+
+
+## \#FOMforscht
+
+Vorträge:
+
+- 11th International Conference on Teaching Statistics (Rosario, Argentinien): *Causal Diagrams for Descriptive Statistics*
+
+- European Conference on Data Analysis 2022 (Neapel, Italien): *Acting Data-Driven -- But How?*
+
 ## Wünsche von mir
 
 &#x1F4DB; Stellen Sie bitte ein Namensschild auf.
@@ -79,13 +103,35 @@ Lernen ist kein Zuschauersport!
 
 Es gibt wissenschaftliche Belege, dass dies sich positiv auf den Lernerfolg auswirkt!
 
+## Lernergebnisse
+
+Die Studierenden können nach erfolgreichem Abschluss des Moduls: 
+
+- den Prozess der Erkenntnisgewinnung in der Psychologie nutzen, Daten gewinnen, zusammenfassen, analysieren und graphisch darstellen,
+
+- statistische Aussagen über Zusammenhänge und Prognosen machen,
+
+- die Gültigkeit der gefundenen Schlussfolgerungen abschätzen,
+
+## Lernergebnisse (Fortsetzung) 
+
+- wichtige Methoden der deskriptiven und Inferenzstatistik passgenau auswählen und anwenden,
+
+- Auswertungen mit R durchführen,
+
+- die Anwendung statistischer Auswertungen in Fachveröffentlichungen verstehen und einordnen,
+
+- in der Struktur psychologischer Veröffentlichungen ihre Ergebnisse berichten,
+
+- vorbereitend für die Projektarbeiten und ihre Abschlussarbeit angemessene empirische Methoden einsetzen.
+
 ## Prüfungsleistung
 
-- Datenanalyse als Prognose-Wettbewerb
+- Hausarbeit
 
 - Klausur 90 Minuten
 
-Seminararbeit und Klausur gehen jeweils zu 50 % in die Modulnote ein, beide Prüfungsleistungen müssen mit mindestens 4,0 bewertet werden.
+Seminararbeit und Klausur gehen jeweils zu 50\% in die Modulnote ein, beide Prüfungsleistungen müssen mit mindestens 4,0 bewertet werden.
 
 Beachten Sie die im OC hinterlegten Fristen!
 
@@ -117,6 +163,8 @@ Ich möchte von Ihnen lernen: Wie kann die Vorlesung ein Erfolg werden?
 Quelle: [https://unric.org/de/17ziele/](https://unric.org/de/17ziele/)
 :::
 
+Gucken wir uns dazu mal Daten an ...
+
 ## UN Ziel 1: Keine Armut
 
 <iframe src="https://upgrader.gapminder.org/q/21/embed?hasBorder=true&hasOpenSansFont=false" title="92% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
@@ -139,7 +187,6 @@ Quelle: [https://unric.org/de/17ziele/](https://unric.org/de/17ziele/)
 - Erste Schritte in R.
 
 ## Sie kommen zum eRfolg!
-
 
 <center>
 <img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/r_first_then.png" alt="eRfolg" width="450"/>
