@@ -1,0 +1,219 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Erster Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Herzlich Wilkommen!
+
+Aus der [Data-Literacy-Charta](https://www.stifterverband.org/charta-data-literacy):
+
+> Data Literacy umfasst die Datenkompetenzen, die für alle Menschen in einer durch Digitalisierung geprägten Welt wichtig sind. Sie ist unverzichtbarer Bestandteil der Allgemeinbildung.
+
+<br> 
+
+Gehen wir es an ...
+
+## Wünsche von mir
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/xxxx](https://tweedback.de/xxxx)
+
+
+## Stimmung?
+
+Auf einer Skala von *OlafScholz*, wie geht es Ihnen heute? 
+
+<center>
+<img src="img/Scholz.jpeg" alt="drawing" width="450"/>
+</center>
+
+::: {.aside}
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443100157487296512)
+:::
+
+
+## Erinnerung
+
+Lernen ist kein Zuschauersport!
+
+<center>
+<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</center>
+
+::: {.aside}
+[via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## Didaktische Hinweise
+
+- An den Präsenzterminen werden wir zusammen interaktiv an Fallstudien arbeiten.
+
+- Wir werden [tweedback.de](https://tweedback.de/) als Classroom Response System nutzen.
+
+- Außerdem werde ich *zufällig* Studierende drannehmen.
+
+- Jede Vorlesung wird mit einer Wiederholung beginnen.
+
+Es gibt wissenschaftliche Belege, dass dies sich positiv auf den Lernerfolg auswirkt!
+
+## Prüfungsleistung
+
+- Datenanalyse als Prognose-Wettbewerb
+
+- Klausur 90 Minuten
+
+Seminararbeit und Klausur gehen jeweils zu 50 % in die Modulnote ein, beide Prüfungsleistungen müssen mit mindestens 4,0 bewertet werden.
+
+Beachten Sie die im OC hinterlegten Fristen!
+
+## Workload
+
+- Präsenzstunden: 60,0 UE
+
+- Strukturiertes Eigenstudium 130,00 ZStd
+
+- Workload gesamt: **175,0 ZStd**
+
+- ECTS-Credit Punkte: 7
+
+## Wünsche und Anregungen
+
+Ich möchte von Ihnen lernen: Wie kann die Vorlesung ein Erfolg werden?
+
+- Denken Sie an eine Vorlesung die Sie besonders gut fanden. Warum?
+
+- Denken Sie an eine Vorlesung die Sie besonders schlecht fanden. Warum?
+
+[https://bit.ly/3CJjlQ5](https://bit.ly/3CJjlQ5)
+
+## UN Ziele
+
+> Die Agenda 2030 mit ihren 17 Zielen für nachhaltige Entwicklung (Sustainable Development Goals, SDGs) ist ein globaler Plan zur Förderung nachhaltigen Friedens und Wohlstands und zum Schutz unseres Planeten. 
+
+::: {.aside}
+Quelle: [https://unric.org/de/17ziele/](https://unric.org/de/17ziele/)
+:::
+
+## UN Ziel 1: Keine Armut
+
+<iframe src="https://upgrader.gapminder.org/q/21/embed?hasBorder=true&hasOpenSansFont=false" title="92% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+
+## Heutiges Thema &#127979;
+
+- Organisatorisches
+
+- Wissenschaftliche Grundlagen
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
+
+- Die Studierenden können die vorgestellten Grundkonzepte wissenschaftlichen Denkens erläutern.
+
+- Die Studierenden können zentrale Begriffe der Wissenschaftstheorie darlegen.
+
+- Die Studierenden sind fähig, eigenständig Beispiele für zentrale Begriffe (wie Hypothesen und zu den Schlusstechniken) zu generieren.
+
+- Erste Schritte in R.
+
+## Sie kommen zum eRfolg!
+
+
+<center>
+<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/r_first_then.png" alt="eRfolg" width="450"/>
+</center>
+
+::: {.aside}
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+## Reproduzierbarkeit durch R Markdown
+
+<center>
+<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/reproducibility_court.png" alt="R Markdown" width="700"/>
+</center>
+
+::: {.aside}
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+--
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES-WiSe-2022.Rproj` starten.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen. 
+
+Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen.
+
+
+## Arbeiten in R Studio
+
+
+<center>
+<img src="img/Kochen_mit_RStudio.png" alt="R Studio" width="850"/>
+</center>
+
+
+## YAML Header
+
+Im *YAML Header* stehen Informationen über unser Dokument.
+
+
+<center>
+<img src="img/YAML-EineLuege.png" alt="YAML" width="700"/>
+</center>
+
+---
+
+## Code Chunks
+
+In den *Code Chunks* stehen die R Befehle.
+
+<center>
+<img src="img/Chunk-EineLuege.png" alt="Chunk" width="700"/>
+</center>
+
+
+---
+
+## Zusammenknüpfen
+
+Text, Code und Ausgabe wird über `Knit` zusammengeknüpft.
+
+<center>
+<img src="img/Knit.png" alt="Knit" width="200"/>
+</center>
+
+---
+
+## eRfolg?
+
+
+<center>
+<img src="img/Erfolg-EineLuege.png" alt="eRfolg?" width="850"/>
+</center>
+
