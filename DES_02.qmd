@@ -1,0 +1,90 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Zweiter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/ex4x](https://tweedback.de/ex4x)
+
+
+## Stimmung?
+
+Auf einer Skala von *AngelaMerkel*, welcher Vorlesungstyp sind Sie? 
+
+<center>
+<img src="img/angela_merkel_vorlesungstyp_cut.jpg"  width="450"/>
+</center>
+
+::: {.aside}
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443100157487296512)
+:::
+
+
+## Erinnerung
+
+Lernen ist kein Zuschauersport!
+
+<center>
+<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</center>
+
+::: {.aside}
+[via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
+:::
+
+## UN Ziel 2: Kein Hunger
+
+<iframe src="https://upgrader.gapminder.org/q/28/embed?hasBorder=true&hasOpenSansFont=false" title="85% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+## Heutiges Thema &#127979;
+
+
+- Wissenschaftliche Grundlagen (Fortsetzung)
+
+- Grundlagen Quantitativer Datenanalyse
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Die Studierenden können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
+- Die Studierenden kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
+- Die Studierenden können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
+
+## Was Sie auch noch lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Die Studierenden wissen um die Unterschiede hinsichtlich Zufall und Kausalität bei Beobachtungs- vs. Experimentalstudien.
+- Die Studierenden können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
+
+
+## Sie kommen zum eRfolg!
+
+<center>
+<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/r_first_then.png" alt="eRfolg" width="450"/>
+</center>
+
+::: {.aside}
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES-WiSe-2022.Rproj` starten.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen.
+
+
