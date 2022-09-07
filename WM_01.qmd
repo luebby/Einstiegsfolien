@@ -45,7 +45,6 @@ Vorträge:
 
 ## Wünsche von mir
 
-&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
 
 &#x270F; Arbeiten Sie aktiv mit.
 
@@ -165,17 +164,8 @@ Gucken wir uns dazu mal Daten an ...
 
 - Organisatorisches
 
-- Wissenschaftliche Grundlagen
+- Erste Daten - Erstkontakt R
 
-## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
-
-- Die Studierenden können die vorgestellten Grundkonzepte wissenschaftlichen Denkens erläutern.
-
-- Die Studierenden können zentrale Begriffe der Wissenschaftstheorie darlegen.
-
-- Die Studierenden sind fähig, eigenständig Beispiele für zentrale Begriffe (wie Hypothesen und zu den Schlusstechniken) zu generieren.
-
-- Erste Schritte in R.
 
 ## Sie kommen zum eRfolg!
 
