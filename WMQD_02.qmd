@@ -28,7 +28,7 @@ Auf einer Skala von *AngelaMerkel*, welcher Vorlesungstyp sind Sie?
 </center>
 
 ::: {.aside}
-Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443100157487296512)
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
 :::
 
 
@@ -114,7 +114,7 @@ Datei `Gummibaerchen.Rmd` im Ordner `fallstudie` öffnen.
 
 Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie zum Thema *Gummibärchen am Geschmack erkennen (?)*
 
-[https://bit.ly/3eExhAN](https://bit.ly/3eExhAN)
+&#x1F4AA; [https://bit.ly/3eExhAN](https://bit.ly/3eExhAN)
 
 
 <center>
