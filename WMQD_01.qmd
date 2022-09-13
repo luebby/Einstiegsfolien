@@ -155,6 +155,15 @@ Ich möchte von Ihnen lernen: Wie kann die Vorlesung ein Erfolg werden?
 
 [https://bit.ly/3qjxRGU](https://bit.ly/3qjxRGU)
 
+
+
+## Heutiges Thema &#127979;
+
+- Organisatorisches
+
+- Erste Daten - Erstkontakt mit R
+
+
 ## UN Ziele
 
 > Die Agenda 2030 mit ihren 17 Zielen für nachhaltige Entwicklung (Sustainable Development Goals, SDGs) ist ein globaler Plan zur Förderung nachhaltigen Friedens und Wohlstands und zum Schutz unseres Planeten. 
@@ -168,13 +177,6 @@ Gucken wir uns dazu mal Daten an ...
 ## UN Ziel 1: Keine Armut
 
 <iframe src="https://upgrader.gapminder.org/q/21/embed?hasBorder=true&hasOpenSansFont=false" title="92% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
-
-
-## Heutiges Thema &#127979;
-
-- Organisatorisches
-
-- Erste Daten - Erstkontakt mit R
 
 ## Sie kommen zum eRfolg!
 
