@@ -1,0 +1,253 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Erster Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WM | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Herzlich Wilkommen!
+
+Aus der [Data-Literacy-Charta](https://www.stifterverband.org/charta-data-literacy):
+
+> Data Literacy umfasst die Datenkompetenzen, die für alle Menschen in einer durch Digitalisierung geprägten Welt wichtig sind. Sie ist unverzichtbarer Bestandteil der Allgemeinbildung.
+
+<br> 
+
+Gehen wir es an ...
+
+## Über mich &#x1F913;
+
+<!-- quarto install extension quarto-ext/fontawesome -->
+
+
+- Prof. Dr. phil. nat. Matthias Gehrke (m), seit 2006 freiberuflich und ab 2008 hauptberuflich an der FOM Frankfurt
+
+- 1993--2004 Gesellschafter-Geschäftsführer der CORTEX Biophysik GmbH, Leipzig
+
+- Schwerpunkte in der Lehre: Statistik und Rechnungswesen
+
+- Forschungsschwerpunkte: Finanzmarktökonometrie, Hochschuldidaktik für Statistik
+
+
+
+- {{< fa envelope >}}:  [matthias.gehrke@fom.de](<mailto:matthias.gehrke@fom.de>)
+
+
+## \#FOMforscht
+
+Aktuell Mitarbeit an folgenden Vorträgen:
+
+- 11th International Conference on Teaching Statistics (Rosario, Argentinien): *Causal Diagrams for Descriptive Statistics*
+
+- European Conference on Data Analysis 2022 (Neapel, Italien): *Acting Data-Driven -- But How?*
+
+## Wünsche von mir
+
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/exnr](https://tweedback.de/exnr)
+
+
+
+## Stimmung?
+
+Auf einer Skala von *OlafScholz*, wie geht es Ihnen heute? 
+
+<center>
+<img src="img/Scholz.jpeg" alt="drawing" width="450"/>
+</center>
+
+::: {.aside}
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443100157487296512)
+:::
+
+
+## Erinnerung
+
+Lernen ist kein Zuschauersport!
+
+<center>
+<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</center>
+
+::: {.aside}
+[via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Besuchen Sie die Veranstaltungen!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## Didaktische Hinweise
+
+- An den Präsenzterminen werden wir zusammen interaktiv an Fallstudien arbeiten.
+
+- Wir werden [tweedback.de](https://tweedback.de/) als Classroom Response System nutzen.
+
+- Achtung, ich nehme Studierende &#x1F632; dran, ohne dass sie sich melden.
+
+- Jede Vorlesung wird mit einer Wiederholung beginnen.
+
+Es gibt wissenschaftliche Belege, dass dies sich positiv auf den Lernerfolg auswirkt  &#x1F642;!
+
+## Lernergebnisse
+
+Die Studierenden können nach erfolgreichem Abschluss des Moduls:
+
+- die wissenschaftstheoretischen Grundlagen qualitativer und quantitativer Forschung in den Wirtschaftswissenschaften erklären,
+- beurteilen, für welche Fragestellungen in Theorie und Praxis qualitative oder quantitative Herangehensweisen geeignet sind,
+
+## Fortsetzung Lernergebnisse
+
+- empirische Analysen konzipieren und vorbereiten,
+- statistische Verfahren der quantitativen Datenanalyse anwenden,
+- die Statistik-Software R zur Datenanalyse verwenden,
+- selbständig ein passendes Forschungsdesign für wirtschaftswissenschaftliche Fragestellungen auswählen.
+
+## Prüfungsleistung
+
+- 25% Sonstige Beteiligung
+
+  - Mindmap des Moduls
+  - Gruppenarbeiten bis zu 3 Personen möglich
+  - Anmeldung bis 30.11.2022, Abgabe bis 20.12.2022
+  - weitere Hinweise siehe Moodle
+
+- 75% Klausur 90 Minuten
+
+Beachten Sie die im OC hinterlegten Fristen!
+
+## Workload
+
+- Präsenzstunden: 44,0 UE
+
+- Strukturiertes Eigenstudium 92,0 ZStd
+
+- Workload gesamt: **125,0 ZStd**
+
+- ECTS-Credit Punkte: 5
+
+## UN Ziele
+
+> Die Agenda 2030 mit ihren 17 Zielen für nachhaltige Entwicklung (Sustainable Development Goals, SDGs) ist ein globaler Plan zur Förderung nachhaltigen Friedens und Wohlstands und zum Schutz unseres Planeten. 
+
+::: {.aside}
+Quelle: [https://unric.org/de/17ziele/](https://unric.org/de/17ziele/)
+:::
+
+Schauen wir uns dazu mal Daten an ...
+
+## UN Ziel 1: Keine Armut
+
+<iframe src="https://upgrader.gapminder.org/q/21/embed?hasBorder=true&hasOpenSansFont=false" title="92% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+
+## Heutiges Thema &#127979;
+
+- Organisatorisches
+
+- Erste Daten -- Erstkontakt R
+
+
+## Sie kommen zum eRfolg!
+
+<center>
+<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/r_first_then.png" alt="eRfolg" width="450"/>
+</center>
+
+::: {.aside}
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+## Reproduzierbarkeit durch R Markdown
+
+<center>
+<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/reproducibility_court.png" alt="R Markdown" width="700"/>
+</center>
+
+::: {.aside}
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+--
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch Klick auf `WM_WiSe22.Rproj` starten.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen. 
+
+Datei `EineLuege.Rmd` im Ordner `fallstudie` öffnen.
+
+
+## Pakete installiert?
+
+Lokale Installation: Haben Sie `pakete.installieren.R` ausgeführt?
+
+<center>
+<img src="img/Setup.png" alt="R Studio" width="850"/>
+</center>
+
+
+## Arbeiten in R Studio
+
+
+<center>
+<img src="img/Kochen_mit_RStudio.png" alt="R Studio" width="850"/>
+</center>
+
+
+## YAML Header
+
+Im *YAML Header* stehen Informationen über unser Dokument.
+
+
+<center>
+<img src="img/YAML-EineLuege.png" alt="YAML" width="700"/>
+</center>
+
+---
+
+## Code Chunks
+
+In den *Code Chunks* stehen die R Befehle.
+
+<center>
+<img src="img/Chunk-EineLuege.png" alt="Chunk" width="700"/>
+</center>
+
+
+---
+
+## Zusammenknüpfen
+
+Text, Code und Ausgabe wird über `Knit` zusammengeknüpft.
+
+<center>
+<img src="img/Knit.png" alt="Knit" width="200"/>
+</center>
+
+---
+
+## eRfolg?
+
+
+<center>
+<img src="img/Erfolg-EineLuege.png" alt="eRfolg?" width="850"/>
+</center>
+
