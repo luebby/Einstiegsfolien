@@ -1,0 +1,131 @@
+---
+title: "Einführung Mathematik"
+subtitle: "Erster Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "EM | Karsten Lübke"
+    chalkboard: true
+---
+
+## Herzlich Wilkommen!
+
+::: center
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ETxmCCsMoD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+## Über mich &#x1F913;
+
+<!-- quarto install extension quarto-ext/fontawesome -->
+
+
+- Prof. Dr. rer.nat. Karsten Lübke (m), seit 2009 an der FOM Dortmund
+
+- Wie John Tukey sagte:
+
+> The best thing about being a statistician is that you get to play in everyone's backyard.
+
+- {{< fa envelope >}}:  [karsten.luebke@fom.de](<mailto:karsten.luebke@fom.de>)
+
+- {{< fa brands twitter >}}:  [@luebby42](https://twitter.com/luebby42)
+
+
+
+## Wünsche von mir
+
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/exnb](https://tweedback.de/exnb)
+
+
+
+## Mathematik
+
+Welcher *VlodoymyrZelenskyy* sind Sie, wenn Sie an Mathematik denken?
+
+![](img/Zelenskyy.jpeg){fig-align="center" width="35%"}
+
+::: {.aside}
+Quelle: [@uamemesforces](https://twitter.com/uamemesforces/status/1536956551558209536?s=20&t=r1lROghINsUTYmvIM-gjdA)
+:::
+
+
+## Erinnerung
+
+Lernen ist kein Zuschauersport!
+
+<center>
+<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</center>
+
+::: {.aside}
+[via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Besuchen Sie die Veranstaltungen!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Videos und weiteren Aufgaben.
+
+- Stellen Sie Fragen.
+
+- Rechnen Sie die Übungen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+
+## Lernergebnisse (I/II)
+
+Die Studierenden können nach erfolgreichem Abschluss des Moduls:
+
+- grundlegende finanzmathematische Fragestellungen analysieren, formulieren und selbständig lösen,
+- einfache Verflechtungen von unternehmerischen Produktionsprozessen abbilden und Gewinne, Erlöse, Kosten sowie Input-Output Fragestellungen bestimmen,
+
+## Lernergebnisse (II/II)
+
+- ökonomische Optimierungsprobleme mit Hilfe der Differentialrechnung lösen,
+- Integrale und Flächen berechnen,
+- gemeinsam Übungen bearbeiten und lösen.    
+
+## Prüfungsleistung
+
+- Klausur 90 Minuten (100% der Modulnote)
+
+Transferaufgabe in der Klausur (etwa 10% des Klausurumfangs).
+
+## Workload
+
+- Präsenzstunden: 60,0 UE
+
+- Strukturiertes Eigenstudium: 40,00 ZStd
+
+- Student Consulting/Praxistransfer: 40,00 ZStd
+
+- Workload gesamt: **125,0 ZStd**
+
+- ECTS-Credit Punkte: 5
+
+## Wünsche und Anregungen
+
+Ich möchte von Ihnen lernen: Wie kann die Vorlesung ein Erfolg werden?
+
+- Denken Sie an eine Vorlesung die Sie besonders gut fanden. Warum?
+
+- Denken Sie an eine Vorlesung die Sie besonders schlecht fanden. Warum?
+
+[https://bit.ly/3UbuOOs](https://bit.ly/3UbuOOs)
+
+
+## Heutiges Thema &#127979;
+
+- Organisatorisches
+
+- Kap. 2.1: Ganzjährige, unterjährige, gemischte und approximierte Verzinsung
