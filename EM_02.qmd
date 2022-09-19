@@ -1,0 +1,89 @@
+---
+title: "Einführung Mathematik"
+subtitle: "Zweiter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "EM | Karsten Lübke"
+    chalkboard: true
+---
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/em2w](https://tweedback.de/em2w)
+
+
+## Vorlesungstyp
+
+Auf einer Skala von *AngelaMerkel*, welcher Vorlesungstyp sind Sie? 
+
+<center>
+<img src="img/angela_merkel_vorlesungstyp_cut.jpg"  width="450"/>
+</center>
+
+::: {.aside}
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
+:::
+
+
+## Erinnerung
+
+Lernen ist kein Zuschauersport!
+
+<center>
+<iframe src="https://giphy.com/embed/3o6Zt90p6NgiyoN4Mo" width="960" height="407´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</center>
+
+::: {.aside}
+[via GIPHY](https://media.giphy.com/media/3o6Zt90p6NgiyoN4Mo/giphy.gif)
+:::
+
+## Recap
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Exponentielle Verzisnung:
+
+$$K_t = K_0 \cdot(1+i)^t$$
+
+Lineare Verzinsung:
+
+$$K_t = K_0 \cdot(1+i \cdot t)$$
+
+:::
+
+::: {.column width="50%"}
+![](img/Zinsart.jpg){fig-align="center" width="66.7%"}
+:::
+
+::::
+
+
+## Recap - Fortsetzung
+
+
+Deutsche, kaufmännische Zinsmethode:^[Für unterjährige, lineare Verzinsung] $t=\frac{T_2-T_1}{360}$,
+mit $T_i=(Monat-1)\cdot 30 + Tag$.
+
+
+<center>
+<iframe src="https://giphy.com/embed/3o6YgpUS55nD5H0Igw" width="480" height="270´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</center>
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/lethalweaponfox-lethal-weapon-riggs-3o6YgpUS55nD5H0Igw)
+:::
+
+
+## Heutiges Thema &#127979;
+
+- Kap. 2.1: Gemischte und approximierte Verzinsung
+
+- Kap. 2.2: Effektivzins, Gebühren, Aquivalenzprinzip und Kapitalwert

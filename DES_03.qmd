@@ -17,7 +17,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/xxxx](https://tweedback.de/xxxx)
+&#x1F4AA; [https://tweedback.de/em26](https://tweedback.de/em26)
 
 
 ## Stimmung?
@@ -156,7 +156,7 @@ Datei `EineLuege-Fortsetzung.Rmd` im Ordner `fallstudie` öffnen.
 - [Rauschen]{.orange}: Zufällige Schwankungen aufgrund der Stichprobe.
 
 ::: aside
-[de Mesquita and Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data)]
+[de Mesquita and Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data)
 :::
 ## Stichprobenarten (I/II)
 
