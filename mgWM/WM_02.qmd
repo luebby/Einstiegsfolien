@@ -15,7 +15,7 @@ format:
 &#x1F937; Stellen Sie Fragen.
 
 <!-- ===> noch anpassen <=== -->
-&#x1F4AA; [https://tweedback.de/exy7](https://tweedback.de/exy7)
+&#x1F4AA; [https://tweedback.de/emzd](https://tweedback.de/emzd)
 
 
 ## Stimmung?
@@ -121,7 +121,7 @@ Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie zum Thema *Eine Luege*
 
-&#x1F4AA; [https://bit.ly/3ePV1St](https://bit.ly/3ePV1St)
+&#x1F4AA; [https://bit.ly/3BqjzJI](https://bit.ly/3BqjzJI)
 
 
 <center>
@@ -156,6 +156,13 @@ In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort ...
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
 Datei `1a_EineLuege_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.
+
+## Pakete nachinstallieren
+
+Ggf. Paket(e) nachinstallieren
+
+![](img/Rmd_Install.png){fig-align="center" width="60%"}
+
 
 ## Coding
 

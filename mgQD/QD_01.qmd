@@ -1,11 +1,11 @@
 ---
-title: "Wissenschaftliche Methodik"
+title: "Wiss. Methoden -- Quantitative Datenanalye"
 subtitle: "Erster Termin"
 format: 
   revealjs:
     theme: fom.scss
     logo: fom.jpg
-    footer: "WM | Matthias Gehrke"
+    footer: "QD | Matthias Gehrke"
     chalkboard: true
 ---
 
@@ -52,7 +52,7 @@ Aktuell Mitarbeit an folgenden Vorträgen:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/exnr](https://tweedback.de/exnr)
+&#x1F4AA; [https://tweedback.de/emus](https://tweedback.de/emus)
 
 
 
@@ -109,38 +109,43 @@ Es gibt wissenschaftliche Belege, dass dies sich positiv auf den Lernerfolg ausw
 
 Die Studierenden können nach erfolgreichem Abschluss des Moduls:
 
-- die wissenschaftstheoretischen Grundlagen qualitativer und quantitativer Forschung in den Wirtschaftswissenschaften erklären,
-- beurteilen, für welche Fragestellungen in Theorie und Praxis qualitative oder quantitative Herangehensweisen geeignet sind,
+- Die Grundlagen und Grundbegriffe quantitativer Datenanalyse beschreiben,
+- Methoden der deskriptiven und induktiven Statistik auswählen und anwenden, 
+- die Ergebnisse statistischer Methoden interpretieren,
+
 
 ## Fortsetzung Lernergebnisse
 
-- empirische Analysen konzipieren und vorbereiten,
-- statistische Verfahren der quantitativen Datenanalyse anwenden,
-- die Statistik-Software R zur Datenanalyse verwenden,
-- selbständig ein passendes Forschungsdesign für wirtschaftswissenschaftliche Fragestellungen auswählen.
+- den Bezug von wirtschaftswissenschaftlichen Forschungsfragen sowie Forschungshypothesen zu quantitativen Methoden herstellen,
+- grundlegende quantitative Methoden in einer wissenschaftlichen Arbeit diskutieren,
+- eine empirisch quantitative wissenschaftliche Arbeit durchführen und verfassen, insbes. auch in Vorbereitung auf die Projektarbeiten und die Abschlussarbeit,
+- Auswertungen mit R durchführen.
+
 
 ## Prüfungsleistung
 
-- 25% Sonstige Beteiligung
+- 50$\,$% Hausarbeit
 
-  - Mindmap des Moduls
+  - Prognosewettbewerb
   - Gruppenarbeiten bis zu 3 Personen möglich
-  - Anmeldung bis 30.11.2022, Abgabe bis 20.12.2022
-  - weitere Hinweise siehe Moodle
+  - Anmeldung bis 31.01.2023, Abgabe bis 28.02.2023
+  - weitere Hinweise folgen in Moodle
 
-- 75% Klausur 90 Minuten
+- 50 % Klausur 60 Minuten
 
 Beachten Sie die im OC hinterlegten Fristen!
 
 ## Workload
 
-- Präsenzstunden: 44,0 UE
+- Präsenzstunden: 64 UE
 
-- Strukturiertes Eigenstudium 92,0 ZStd
+- Strukturiertes Eigenstudium: 97 ZStd
 
-- Workload gesamt: **125,0 ZStd**
+- Student Consulting: 55 ZStd
 
-- ECTS-Credit Punkte: 5
+- Workload gesamt: **200 ZStd**
+
+- ECTS-Credit Punkte: 8
 
 ## UN Ziele
 
@@ -188,7 +193,7 @@ Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch Klick auf `WM_WiSe22.Rproj` starten.
+- Lokal: RStudio durch Klick auf `QD_WiSe22.Rproj` starten.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen. 
 
@@ -202,6 +207,13 @@ Lokale Installation: Haben Sie `pakete.installieren.R` ausgeführt?
 <center>
 <img src="img/Setup.png" alt="R Studio" width="850"/>
 </center>
+
+
+## Pakete nachinstallieren
+
+Ggf. Paket(e) nachinstallieren
+
+![](img/Rmd_Install.png){fig-align="center" width="60%"}
 
 
 ## Arbeiten in R Studio
