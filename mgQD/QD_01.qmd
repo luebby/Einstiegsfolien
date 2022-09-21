@@ -213,7 +213,7 @@ Lokale Installation: Haben Sie `pakete.installieren.R` ausgeführt?
 
 Ggf. Paket(e) nachinstallieren
 
-![](img/Rmd_Install.png){fig-align="center" width="60%"}
+![](img/Rmd_Install_mosaic-DT.png){fig-align="center" width="60%"}
 
 
 ## Arbeiten in R Studio

@@ -161,7 +161,7 @@ Datei `1a_EineLuege_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.
 
 Ggf. Paket(e) nachinstallieren
 
-![](img/Rmd_Install.png){fig-align="center" width="60%"}
+![](img/Rmd_Install_google.png){fig-align="center" width="60%"}
 
 
 ## Coding
