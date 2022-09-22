@@ -1,0 +1,141 @@
+---
+title: "Einführung Mathematik"
+subtitle: "Dritter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "EM | Karsten Lübke"
+    chalkboard: true
+
+---
+
+## Rückblick Letzter Termin
+
+<br>
+
+::: center
+<iframe src="https://giphy.com/embed/3ohA2ZD9EkeK2AyfdK" width="480" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: aside
+[via GIPHY](https://giphy.com/gifs/filmeditor-home-alone-christmas-movies-3ohA2ZD9EkeK2AyfdK)
+:::
+
+
+
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/em93/](https://tweedback.de/em93/)
+
+## Guten Morgen
+
+Wie sind Sie heute aufgestanden?
+
+::: {.columns}
+
+:::: {.column width="50%"}
+**A**:
+
+<iframe src="https://giphy.com/embed/l46CBEVQjSJG6mCnC" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+::::: aside
+[via GIPHY](https://giphy.com/gifs/veephbo-hbo-veep-julia-louis-dreyfus-l46CBEVQjSJG6mCnC)
+:::::
+::::
+
+
+
+:::: {.column width="50%"}
+**B**:
+
+<iframe src="https://giphy.com/embed/l46CBvLI7Q7YthRzG" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+::::: aside
+[via GIPHY](https://giphy.com/gifs/comedycentral-amy-schumer-inside-stretch-l46CBvLI7Q7YthRzG)
+:::::
+::::
+:::
+
+## Learning Pit
+
+::: center
+**Sie** schaffen es aus der Grube
+:::
+
+![](img/TheLearningPit.png){fig-align="center" width="40%"}
+
+::: aside
+Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## Hybride Vorlesung
+
+- Auf Ihrem Wunsch hin wird wird die Vorlesung bis auf Weiteres optional auch hybrid angeboten.
+
+- Die Didaktik orientiert sich an der Präsenzvorlesung im Hörsaal.
+
+- Viele Studien (und eigene Daten) zeigen, dass vielen Studierenden das Lernen in präsenz häufig leichter fällt als digital. Achten Sie daher auf sich, damit der Nachteilsausgleich nicht für Sie zum Nachteil wird.
+
+
+
+## Recap
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Exponentielle Verzisnung:
+
+$$K_t = K_0 \cdot(1+i)^t$$
+
+Lineare Verzinsung:
+
+$$K_t = K_0 \cdot(1+i \cdot t)$$
+
+:::
+
+::: {.column width="50%"}
+![](img/Aequivalenzprinzip.jpg){fig-align="center" width="100%"}
+:::
+
+::::
+
+
+## Recap - Fortsetzung
+
+Bei $m$ Zinsperioden im Jahr: 
+
+- Jahreszinsrate $i_{nom}$.
+
+- Anteilige Periodenzinsrate $i_* = \frac{i_{nom}}{m}$.
+
+- Konforme Periodenzinsrate $i'=\sqrt[m]{1+i_{nom}}-1$.
+
+- Effektive Zinsrate $i_{eff}=(1+\frac{i_{nom}}{m})^m-1$.
+
+
+## Heutiges Thema &#127979;
+
+- Kap. 2.2: Gebühren, Aquivalenzprinzip und Kapitalwert
+- Kap. 2.3: Rentenrechnung
+
