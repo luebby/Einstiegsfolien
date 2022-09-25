@@ -120,4 +120,33 @@ Ggf. Paket(e) nachinstallieren
 
 ![](img/Rmd_Install_here.png){fig-align="center" width="60%"}
 
+## Code-Chunks in RMarkdown-Dateien
+
+::: {.columns}
+
+:::: {.column width="70%"}
+
+Ein neuer Code-Chunk wird mit Ctrl-Alt-I (auf Mac Cmd-Opt-I) eingefügt:
+
+Rechts oben im Chunk stehen folgende Symbole:
+
+::::
+
+:::: {.column width="30%"}
+
+<center>
+<img src="img/Rmd_Chunk.png" alt="Knit" width="200"/>
+</center> 
+
+<center>
+<img src="img/Rmd_Chunk_Run.png" alt="Knit" width="200"/>
+</center> 
+
+::::
+:::
+- Der Pfeil nach rechts führt alle Code-Zeilen im aktuellen Chunk aus (Tastenkombination: Strg-Umsch-Eingabe, Mac: Ctrl-Shift-Enter). 
+- Der Pfeil nach unten führt alle Chunks oberhalb aus.
+- Eine einzelne Code-Zeile in einem Chunk kann mit Strg-Eingabe (Mac: Ctrl-Enter) ausgeführt werden.
+
+
 
