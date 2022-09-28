@@ -1,0 +1,288 @@
+---
+title: "Wissenschaftliche Methoden - Quantitative Datenanalyse"
+subtitle: "Dritter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WMQD | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/emx9](https://tweedback.de/emx9)
+
+
+## Stimmung?
+
+Auf der *Katzenskala*: Wie geht es Ihnen?
+
+![](img/cat-scale8.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
+:::
+
+## Learning Pit
+
+
+::: center
+**Sie** schaffen es aus der Grube
+:::
+
+![](img/TheLearningPit.png){fig-align="center" width="40%"}
+
+::: aside
+Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 3: Gesundheit und Wohlergehen
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&hasOpenSansFont=false" title="" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Hybride Vorlesung
+
+- Auf Ihrem Wunsch hin wird wird die Vorlesung bis auf Weiteres optional auch hybrid angeboten.
+
+- Die Didaktik orientiert sich an der Präsenzvorlesung im Hörsaal.
+
+- Viele Studien (und eigene Daten) zeigen, dass vielen Studierenden das Lernen in präsenz häufig leichter fällt als digital. Achten Sie daher auf sich, damit der Nachteilsausgleich nicht für Sie zum Nachteil wird.
+
+## Heutiges Thema &#127979;
+
+
+- Grundlagen Quantitativer Datenanalyse
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Die Studierenden können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
+- Die Studierenden kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
+- Die Studierenden können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
+
+## Was Sie auch noch lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Die Studierenden wissen um die Unterschiede hinsichtlich Zufall und Kausalität bei Beobachtungs- vs. Experimentalstudien.
+- Die Studierenden können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
+
+## PPDAC
+
+:::: {.columns}
+
+::: {.column width="50%"}
+In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort...
+:::
+
+::: {.column width="50%"}
+![](img/PPDAC.png){fig-align="center" width="100%"}
+:::
+
+::::
+
+## Messung
+
+Beim Messen wird einer [Eigenschaft]{.blue} eines Objektes ein [Wert]{.gray} zugewiesen. Dabei sollte die [Beziehung der Werte]{.gray} der [Beziehung der Eigenschaften]{.blue} der Objekte entsprechen.
+
+<br>
+
+::: box
+[Messergebnis]{.gray} = [Wert der Eigenschaft]{.blue} + [Systematische Abweichungen]{.purple} + [Zufällige Schwankungen]{.orange}
+:::
+
+## Klausur
+
+Am Ende des Semesters wird Ihr Lernergebnis durch &#x1F469;&#x200D;&#x1F3EB; vermessen - im Rahmen einer Klausur.
+
+Diskutieren Sie innerhalb Ihres Raumes das genannte Gütekriterium. Was kann ich tun, damit das [Messergebnis]{.gray} gut mit dem [Wert der Eigenschaft]{.blue} übereinstimmt?
+
+&#x1F4AA; [https://bit.ly/3LGDngp](https://bit.ly/3LGDngp)
+
+## Datentabelle
+
+![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg){fig-align="center" width="80%"}
+
+
+::: aside
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+## Übung &#x1F4AA;
+
+![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg){fig-align="right" width="25%"}
+
+Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: observation?)
+
+**A**: Die erreichte Punktzahl.
+
+**B**: Die Teilnehmerin Susi.
+
+**C**: Die erreichte Punktzahl von 60 Punkten von Susi.
+
+::: aside
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+## Skalenniveaus
+
+::: center
+<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title="" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+::: aside
+Quelle: [https://www.causeweb.org/cause/resources/fun/songs/levels-measurement](https://www.causeweb.org/cause/resources/fun/songs/levels-measurement)
+:::
+
+## R Markdown rockt!
+
+![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_rockstar.png){fig-align="center" width="60%"}
+
+
+::: aside
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WMQD-WiSe-2022.Rproj` starten.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Datei `Gummibaerchen_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen.
+
+## Eine wichtige Gleichung (I/II)
+
+::: box
+[Beobachteter Wert]{.gray} = [Wahrer Wert]{.blue} + [Verzerrung]{.purple} + [Rauschen]{.orange}
+:::
+
+- [Beobachteter Wert]{.gray}: Wert, den wir auf Basis unser **Stichprobe** berechnen, häufig eine **Statistik**.
+
+- [Wahrer Wert]{.blue}: Wert, an dem wir interessiert sind. Häufig ein **Parameter** der **Population**.
+
+## Eine wichtige Gleichung (II/II)
+
+- [Verzerrung]{.purple}: Systematische Abweichungen zwischen [Beobachteter Wert]{.gray} und [Wahrer Wert]{.blue}, z.B. aufgrund nicht-repräsentativer Stichprobe oder Störfaktoren.
+
+- [Rauschen]{.orange}: Zufällige Schwankungen aufgrund der Stichprobe.
+
+::: aside
+[de Mesquita and Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data)
+:::
+## Stichprobenarten (I/II)
+
+&#x1F469;&#x200D;&#x1F3EB; möchte wissen wie gut die Studierenden die Inhalte verstanden haben.
+
+- **Gelegenheitsstichprobe**: &#x1F469;&#x200D;&#x1F3EB; nimmt die dran, die sich meldet.
+
+- **Zufällige Stichprobe**:  &#x1F469;&#x200D;&#x1F3EB; wählt zufällig eine Studierende aus.
+
+## Stichprobenarten (II/II)
+
+
+```{r}
+#| layout-ncol: 2
+#| column: page
+
+library(ggplot2)
+library(ggdag)
+
+co <- data.frame(x = c(0.5,0,1), y = c(1,0,0), name = c("Z", "S", "X")) 
+
+dag_s1<-dagify(S ~ Z,
+               X ~ Z,
+               coords = co) %>% 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  geom_text(label = "Z - Verstehen\nS - Stichprobe\nX - Antwort", 
+            hjust = 0, vjust = 0,
+            x = 0.15, y = 0, size = 7, color = "darkgrey") +
+  labs(title = "Gelegenheitsstichprobe")
+
+co <- data.frame(x = c(0.5,0,1,-1), y = c(1,0,0,0), name = c("Z", "S", "X", "R")) 
+
+dag_s2<-dagify(X ~ Z,
+               S ~ Z,
+               S ~ R, coords = co) %>% 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  geom_segment(aes(x = .15, y = .475, xend = .35, yend = .575), color = "red") +
+  geom_segment(aes(x = .15, y = .425, xend = .35, yend = .525), color = "red") +
+  geom_text(label = "Z - Verstehen\nS - Stichprobe\nX - Antwort\nR - Dozent:in", 
+            hjust = 0, vjust = 1,
+            x = -1.1, y = 0.75, size = 7, color = "darkgrey") + 
+  labs(title = "Zufällige Stichprobe")
+
+dag_s1
+dag_s2
+```
+
+Der Zufall [eliminert]{.red} die Abhängigkeit von möglichen [Verzerrungen]{.purple} der Stichprobe (hier durch Verstehen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
+
+## Studienarten (I/II)
+
+&#x1F469;&#x200D;&#x1F3EB; möchte wissen, wie Lernzeit und Klausurergebnis zusammenhängen.
+
+- **Beobachtungsstudie**: &#x1F469;&#x200D;&#x1F3EB; beobachtet Lernzeit und resultierende Klausurpunkte.
+
+- **Randomisierte Studie**:  &#x1F469;&#x200D;&#x1F3EB; manipuliert Lernzeit zufällig und beobachtet resultierende Klausurpunkte.
+
+## Studienarten (II/II)
+
+```{r}
+#| layout-ncol: 2
+#| column: page
+
+co <- data.frame(x = c(0,0,1), y = c(1,0,0), name = c("Z", "X", "Y")) 
+
+dag_e1<-dagify(Y ~ X,
+               X ~ Z,
+               Y ~ Z, coords = co) %>% 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  geom_text(label = "Z - Vorwissen\nX - Lernzeit\nY - Klausurpunkte", 
+            hjust = 1, vjust = 1,
+            x = 1, y = 1, size = 7, color = "darkgrey") +
+  labs(title = "Beobachtungsstudie")
+
+co <- data.frame(x = c(0,0,1,-1), y = c(1,0,0,0), name = c("Z", "X", "Y", "R")) 
+
+dag_e2<-dagify(Y ~ X,
+               X ~ Z,
+               X ~ R,
+               Y ~ Z, coords = co) %>% 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  geom_segment(aes(x = -.1, y = .475, xend = .1, yend = .575), color = "red") +
+  geom_segment(aes(x = -.1, y = .425, xend = .1, yend = .525), color = "red") +
+  geom_text(label = "Z - Vorwissen\nX - Lernzeit\nY - Klausurpunkte\nR - Dozent:in", 
+            hjust = 0, vjust = 1,
+            x = -1.15, y = 0.85, size = 7, color = "darkgrey") +
+  labs(title = "Randomisiertes Experiment")
+
+dag_e1
+dag_e2
+```
+
+Der Zufall [eliminert]{.red} die Abhängigkeit einer [Verzerrungen]{.purple} des Zusammenhangs (hier durch Vorwissen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.

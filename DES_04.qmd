@@ -1,0 +1,235 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Vierter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/xxxx](https://tweedback.de/xxxx)
+
+
+## Stimmung?
+
+::: {.columns}
+
+:::: {.column width="55%"}
+Auf der *Funny Scale*:  
+Wie geht es Ihnen heute?
+
+::::: aside
+Quelle: [Etsy](https://www.etsy.com/de/listing/1032124670/emotion-check-in-emotional-regulation?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=stimmung+skala&ref=sr_gallery-1-16&sts=1)
+:::::
+
+::::
+
+:::: {.column width="45%"}
+![](img/fun-scale.jpg){fig-align="center" }
+::::
+
+:::
+
+## Learning Pit
+
+
+::: center
+**Sie** schaffen es aus der Grube
+:::
+
+![](img/TheLearningPit.png){fig-align="center" width="40%"}
+
+::: aside
+Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
+:::
+
+
+## UN Ziel 4: Hochwertige Bildung
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/3/embed?hasBorder=true&hasOpenSansFont=false" title="86% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Hybride Vorlesung
+
+- Auf Ihrem Wunsch hin wird wird die Vorlesung bis auf Weiteres optional auch hybrid angeboten.
+
+- Die Didaktik orientiert sich an der Präsenzvorlesung im Hörsaal.
+
+- Viele Studien (und eigene Daten) zeigen, dass vielen Studierenden das Lernen in präsenz häufig leichter fällt als digital. Achten Sie daher auf sich, damit der Nachteilsausgleich nicht für Sie zum Nachteil wird.
+
+## Heutiges Thema &#127979;
+
+
+- Abschluss Grundlagen Quantitativer Datenanalyse
+
+- Explorative Datenanalyse und Beschreibende Statistik: Schwerpunkt **[kategoriale]{.green}** Daten
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie kennen zentrale Statistiken und Visualisierungen für kategoriale Variablen und können diese anwenden.
+
+- Sie können den Zusammenhang zwischen zwei kategorialen Merkmalen visualisieren und interpretieren.
+
+
+## Wiederholung: PPDAC
+
+:::: {.columns}
+
+::: {.column width="50%"}
+In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort...
+:::
+
+::: {.column width="50%"}
+![](img/PPDAC.png){fig-align="center" width="100%"}
+:::
+
+::::
+
+
+## Wiederholung: Messung
+
+- **Gütekriterien der Messung:**  
+  Genauigkeit, Objektivität, Reliabilität, Validität
+
+- **Skalenniveaus:** 
+
+  **[kategorial:]{.green}** nominal, ordinal
+  
+  **[metrisch:]{.green}** intervallskaliert, verhältnisskaliert. Zusätzliche Unterscheidung: stetig, diskret
+
+## Eine wichtige Gleichung (I/II)
+
+::: box
+[Beobachteter Wert]{.gray} = [Wahrer Wert]{.blue} + [Verzerrung]{.purple} + [Rauschen]{.orange}
+:::
+
+- [Beobachteter Wert]{.gray}: Wert, den wir auf Basis unser **Stichprobe** berechnen, häufig eine **Statistik**.
+
+- [Wahrer Wert]{.blue}: Wert, an dem wir interessiert sind. Häufig ein **Parameter** der **Population**.
+
+
+## Eine wichtige Gleichung (II/II)
+
+- [Verzerrung]{.purple}: Systematische Abweichungen zwischen [Beobachteter Wert]{.gray} und [Wahrer Wert]{.blue}, z.B. aufgrund nicht-repräsentativer Stichprobe oder Störfaktoren.
+
+- [Rauschen]{.orange}: Zufällige Schwankungen aufgrund der Stichprobe.
+
+::: aside
+[de Mesquita and Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data)
+:::
+
+## Stichprobenarten (I/II)
+
+&#x1F469;&#x200D;&#x1F3EB; möchte wissen wie gut die Studierenden die Inhalte verstanden haben.
+
+- **Gelegenheitsstichprobe**: &#x1F469;&#x200D;&#x1F3EB; nimmt die dran, die sich meldet.
+
+- **Zufällige Stichprobe**:  &#x1F469;&#x200D;&#x1F3EB; wählt zufällig eine Studierende aus.
+
+## Stichprobenarten (II/II)
+
+```{r}
+#| layout-ncol: 2
+#| column: page
+
+library(ggplot2)
+library(ggdag)
+
+co <- data.frame(x = c(0.5,0,1), y = c(1,0,0), name = c("Z", "S", "X")) 
+
+dag_s1<-dagify(S ~ Z,
+               X ~ Z,
+               coords = co) %>% 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  geom_text(label = "Z - Verstehen\nS - Stichprobe\nX - Antwort", 
+            hjust = 0, vjust = 0,
+            x = 0.15, y = 0, size = 7, color = "darkgrey") +
+  labs(title = "Gelegenheitsstichprobe")
+
+co <- data.frame(x = c(0.5,0,1,-1), y = c(1,0,0,0), name = c("Z", "S", "X", "R")) 
+
+dag_s2<-dagify(X ~ Z,
+               S ~ Z,
+               S ~ R, coords = co) %>% 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  geom_segment(aes(x = .15, y = .475, xend = .35, yend = .575), color = "red") +
+  geom_segment(aes(x = .15, y = .425, xend = .35, yend = .525), color = "red") +
+  geom_text(label = "Z - Verstehen\nS - Stichprobe\nX - Antwort\nR - Dozent:in", 
+            hjust = 0, vjust = 1,
+            x = -1.1, y = 0.75, size = 7, color = "darkgrey") + 
+  labs(title = "Zufällige Stichprobe")
+
+dag_s1
+dag_s2
+```
+
+Der Zufall [eliminert]{.red} die Abhängigkeit von möglichen [Verzerrungen]{.purple} der Stichprobe (hier durch Verstehen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
+
+## Studienarten (I/II)
+
+&#x1F469;&#x200D;&#x1F3EB; möchte wissen, wie Lernzeit und Klausurergebnis zusammenhängen.
+
+- **Beobachtungsstudie**: &#x1F469;&#x200D;&#x1F3EB; beobachtet Lernzeit und resultierende Klausurpunkte.
+
+- **Randomisierte Studie**:  &#x1F469;&#x200D;&#x1F3EB; manipuliert Lernzeit zufällig und beobachtet resultierende Klausurpunkte.
+
+## Studienarten (II/II)
+
+```{r}
+#| layout-ncol: 2
+#| column: page
+
+co <- data.frame(x = c(0,0,1), y = c(1,0,0), name = c("Z", "X", "Y")) 
+
+dag_e1<-dagify(Y ~ X,
+               X ~ Z,
+               Y ~ Z, coords = co) %>% 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  geom_text(label = "Z - Vorwissen\nX - Lernzeit\nY - Klausurpunkte", 
+            hjust = 1, vjust = 1,
+            x = 1, y = 1, size = 7, color = "darkgrey") +
+  labs(title = "Beobachtungsstudie")
+
+co <- data.frame(x = c(0,0,1,-1), y = c(1,0,0,0), name = c("Z", "X", "Y", "R")) 
+
+dag_e2<-dagify(Y ~ X,
+               X ~ Z,
+               X ~ R,
+               Y ~ Z, coords = co) %>% 
+  ggdag(node_size = 20, text_size = 8, text = TRUE, text_col = "lightgray") + theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(15, "pt"), type = "closed"))  + 
+  geom_segment(aes(x = -.1, y = .475, xend = .1, yend = .575), color = "red") +
+  geom_segment(aes(x = -.1, y = .425, xend = .1, yend = .525), color = "red") +
+  geom_text(label = "Z - Vorwissen\nX - Lernzeit\nY - Klausurpunkte\nR - Dozent:in", 
+            hjust = 0, vjust = 1,
+            x = -1.15, y = 0.85, size = 7, color = "darkgrey") +
+  labs(title = "Randomisiertes Experiment")
+
+dag_e1
+dag_e2
+```
+
+Der Zufall [eliminert]{.red} die Abhängigkeit einer [Verzerrungen]{.purple} des Zusammenhangs (hier durch Vorwissen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES-WiSe-2022.Rproj` starten.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen.
