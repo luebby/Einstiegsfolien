@@ -1,21 +1,21 @@
 ---
-title: "Wissenschaftliche Methodik"
-subtitle: "Zweiter Termin"
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Dritter Termin"
 format: 
   revealjs:
     theme: fom.scss
     logo: fom.jpg
-    footer: "WM | Matthias Gehrke"
+    footer: "QD | Matthias Gehrke"
     chalkboard: true
 ---
+
 ## Zur Erinnerung
 
 &#x270F; Arbeiten Sie aktiv mit.
 
 &#x1F937; Stellen Sie Fragen.
 
-<!-- ===> noch anpassen <=== -->
-&#x1F4AA; [https://tweedback.de/eyfs](https://tweedback.de/eyfs)
+&#x1F4AA; [https://tweedback.de/eykf](https://tweedback.de/eykf)
 
 
 ## Stimmung?
@@ -36,7 +36,7 @@ Quelle: [@MissWinehousse](https://twitter.com/iqueeandy/status/12526468685946798
 **Sie** schaffen es aus der Grube
 :::
 
-![](img/TheLearningPit.png){fig-align="center" width="50%"}
+![](img/TheLearningPit.png){fig-align="center" width="40%"}
 
 ::: aside
 Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
@@ -54,90 +54,43 @@ Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
 
 - Unterstützen Sie sich gegenseitig.
 
-## UN Ziel 2: Kein Hunger
+## UN Ziel 3: Gesundheit und Wohlergehen
 
-<iframe src="https://upgrader.gapminder.org/q/28/embed?hasBorder=true&hasOpenSansFont=false" title="85% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+::: center
+<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&hasOpenSansFont=false" title="" width="100%" height="500" style="border:none;"></iframe>
+:::
 
-## Was bisher geschah ...
+## Was haben wir das letzte Mal gemacht ...
 
-- **Induktion**: Generalisierung von in der Realität beobachteten Regelmäßigkeiten zu einer allgemeineren Vermutung. 
-
-- **Deduktion**: Ableitung von Aussagen aus anderen (allgemeineren) Aussagen mit Hilfe logischer Regeln. 
-
-- **Hypothese**: Eine Hypothese ist eine aus der Theorie oder Beobachtung abgeleitete Vermutungen über einen Sachverhalt.
-
-- **Falsifikationsprinzip**: Hypothesen sind (nach Karl Popper) nie beweisbar/bestätigbar, man kann höchstens zeigen, dass sie falsch sind.
-
-## Dazu gibt es noch ...
-
-- **Abduktion:** Verknüpfung von Einzelbeobachtungen und Erkennen (Vermuten) von Regeln.
-
-- **Modell:** Vereinfachte Darstellung relevanter Teile der Realität.
-
-- **Theorie:** Umfangreiche Sammlung wissenschaftlich begründeter Aussagen (Hypothesen) zur Erklärung bestimmter Tatsachen oder Erscheinungen und der ihnen zugrunde liegenden Gesetzlichkeiten, umfangreich, lässt sich i. d. R. nicht auf einmal prüfen.
+- Gütekriterien der Forschung
+  - Ethische Aspekte
+  - Objektivität
+  - Transparanz und Reproduzierbarkeit
+  - interne und externe Validität
+  
+- Weiter mit R und RStudio gearbeitet
 
 ## Heutiges Thema &#127979;
 
-- Wissenschaftliche Grundlagen (Fortsetzung)
-
 - Grundlagen Quantitativer Datenanalyse
 
-## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
 
-- Sie können die vorgestellten Grundkonzepte wissenschaftlichen Denkens erläutern.
-
-- Sie können zentrale Begriffe der Wissenschaftstheorie darlegen.
-
-- Sie sind fähig, eigenständig Beispiele für zentrale Begriffe (wie Hypothesen und zu den Schlusstechniken) zu generieren.
-
-- Sie können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
-
-- Sie machen weitere Schritte in R.
+- Sie können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
+- Sie kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
+- Die Studierenden können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
 
 ## Was Sie auch noch lernen &#x1F469;&#x200D;&#x1F3EB; 
 
-- Sie können Messen definieren und können verschiedene Typen von Skalenniveaus sicher unterscheiden.
-
-- Sie kennen Grundbegriffe der quantitativen Datenanalyse (wie unabhängige und abhängige Variable) und können Probleme erklären, die aufgrund der Nichtberücksichtigung von Drittvariablen auftreten können.
-
-- Sie können zentrale Begriffe um Stichproben(arten) und Populationen erläutern.
-
 - Sie wissen um die Unterschiede hinsichtlich Zufall und Kausalität bei Beobachtungs- vs. Experimentalstudien.
-
-
-## Transparenz
-
-Wir sind es dem datenbasierten Entscheiden schuldig!
-
-<center>
-<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_wizards.png" alt="eRfolg" width="60%"/>
-</center>
-
-::: {.aside}
-Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
-:::
-
-## Gütekriterien
-
-Disktuieren Sie in Gruppen die Gütekritieren unserer Wissenschaftlichen Studie zum Thema *Eine Luege*
-
-&#x1F4AA; [https://bit.ly/3ULMD71](https://bit.ly/3ULMD71)
-
-
-<center>
-<iframe src="https://giphy.com/embed/26FLaFRZa93ZcoDnO" width="480" height="270´" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-</center>
-
-::: {.aside}
-[via GIPHY](https://giphy.com/gifs/Obama-26FLaFRZa93ZcoDnO)
-:::
+- Sie können die Phasen des PPDAC-Zyklus nennen und anhand von Beispielen illustrieren.
 
 ## PPDAC
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort ...
+In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort...
 :::
 
 ::: {.column width="50%"}
@@ -145,65 +98,6 @@ In fünf Schritten von der Fragestellung zur (vorläufigen) Antwort ...
 :::
 
 ::::
-
-## Fallstudie &#x1F4BB;
-
-- Lokal: RStudio durch klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
-
-![](img/RStudio2.png){fig-align="center" width="60%"}
-
-
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
-
-Datei `1a_EineLuege_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.
-
-## Pakete nachinstallieren
-
-Ggf. Paket(e) nachinstallieren
-
-![](img/Rmd_Install_google.png){fig-align="center" width="60%"}
-
-
-## Coding
-
-> and in a blink of an eye [a] week passes by [t]hen I read my code again I can’t understand a damn thing
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nziSP3vELCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-::: {.aside}
-Quelle: [The Raf: The R Inferno Song (Teenage Dirtbag Parody)](https://youtu.be/nziSP3vELCk)
-:::
-
-## Code-Chunk in RMarkdown-Dateien
-
-::: {.columns}
-
-:::: {.column width="70%"}
-
-Ein neuer Code Chunk wird mit Ctrl-Alt-I (auf Mac Cmd-Opt-I) eingefügt:
-
-Rechts oben im Chunk stehen folgende Symbole:
-
-::::
-
-:::: {.column width="30%"}
-
-<center>
-<img src="img/Rmd_Chunk.png" width="200"/>
-</center> 
-
-<center>
-<img src="img/Rmd_Chunk_Run.png" width="200"/>
-</center> 
-
-::::
-:::
-- Der Pfeil nach rechts führt alle Code-Zeilen im aktuellen Chunk aus (Tastenkombination: Strg-Umsch-Eingabe, Mac: Ctrl-Shift-Enter). 
-- Der Pfeil nach unten führt alle Chunks oberhalb aus.
-- Eine einzelne Code-Zeile in einem Chunk kann mit Strg-Eingabe (Mac: Ctrl-Enter) ausgeführt werden.
-
 
 ## Messung
 
@@ -215,18 +109,38 @@ Beim Messen wird einer [Eigenschaft]{.blue} eines Objektes ein [Wert]{.gray} zug
 [Messergebnis]{.gray} = [Wert der Eigenschaft]{.blue} + [Systematische Abweichungen]{.purple} + [Zufällige Schwankungen]{.orange}
 :::
 
-## Frage
+## Klausur
 
-Welche Gütekriterien gibt es für eine Messung?
+Am Ende des Semesters wird Ihr Lernergebnis durch &#x1F469;&#x200D;&#x1F3EB; vermessen -- im Rahmen einer Klausur.
 
-## Skalenniveaus
+Diskutieren Sie in Ihrer Gruppe das genannte Gütekriterium. Was kann ich tun, damit das [Messergebnis]{.gray} gut mit dem [Wert der Eigenschaft]{.blue} übereinstimmt?
 
-::: center
-<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title="" width="100%" height="500" style="border:none;"></iframe>
-:::
+&#x1F4AA; [https://bit.ly/3Sms4wC](https://bit.ly/3Sms4wC)
+
+
+## Datentabelle
+
+![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg){fig-align="center" width="80%"}
+
 
 ::: aside
-Quelle: [https://www.causeweb.org/cause/resources/fun/songs/levels-measurement](https://www.causeweb.org/cause/resources/fun/songs/levels-measurement)
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+## Übung &#x1F4AA;
+
+![](https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/tidydata_1.jpg){fig-align="right" width="25%"}
+
+Was ist bei einer Datentabelle der Klausurergebnisse eine Beobachtung (engl.: observation?)
+
+**A**: Die erreichte Punktzahl.
+
+**B**: Die Teilnehmerin Susi.
+
+**C**: Die erreichte Punktzahl von 60 Punkten von Susi.
+
+::: aside
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 :::
 
 ## R Markdown rockt!
@@ -236,6 +150,31 @@ Quelle: [https://www.causeweb.org/cause/resources/fun/songs/levels-measurement](
 
 ::: aside
 Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `QD_WiSe22.Rproj` starten.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.
+
+## Pakete nachinstallieren
+
+Ggf. Paket(e) nachinstallieren
+
+![](img/Rmd_Install_google.png){fig-align="center" width="60%"}
+
+## Skalenniveaus
+
+::: center
+<iframe src="https://www.causeweb.org/cause/resources/fun/songs/levels-measurement" title="" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+::: aside
+Quelle: [https://www.causeweb.org/cause/resources/fun/songs/levels-measurement](https://www.causeweb.org/cause/resources/fun/songs/levels-measurement)
 :::
 
 ## Eine wichtige Gleichung (I/II)
@@ -259,7 +198,7 @@ Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 :::
 ## Stichprobenarten (I/II)
 
-&#x1F469;&#x200D;&#x1F3EB; möchte wissen, wie gut die Studierenden die Inhalte verstanden haben.
+&#x1F469;&#x200D;&#x1F3EB; möchte wissen wie gut die Studierenden die Inhalte verstanden haben.
 
 - **Gelegenheitsstichprobe**: &#x1F469;&#x200D;&#x1F3EB; nimmt die dran, die sich meldet.
 
@@ -352,4 +291,4 @@ dag_e1
 dag_e2
 ```
 
-Der Zufall [eliminert]{.red} die Abhängigkeit einer [Verzerrungen]{.purple} des Zusammenhangs (hier durch Vorwissen). Der [beobachtete Wert]{.gray} kann den [wahren Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
+Der Zufall [eliminert]{.red} die Abhängigkeit einer [Verzerrungen]{.purple} des Zusammenhangs (hier durch Vorwissen). Der [Beobachtete Wert]{.gray} kann den [Wahrer Wert]{.blue} unverzerrt schätzen. Es gibt aber noch [zufällige Schwankungen]{.orange}.
