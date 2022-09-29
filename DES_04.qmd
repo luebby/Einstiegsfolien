@@ -17,7 +17,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/xxxx](https://tweedback.de/xxxx)
+&#x1F4AA; [https://tweedback.de/ey5g](https://tweedback.de/ey5g)
 
 
 ## Stimmung?
@@ -233,3 +233,16 @@ Der Zufall [eliminert]{.red} die Abhängigkeit einer [Verzerrungen]{.purple} des
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
 Datei `Filmgenre.Rmd` im Ordner `fallstudie` öffnen.
+
+## Risk Literacy
+
+Steigern Sie in Ihrer Gruppe die Risikokompetenz: [https://bit.ly/3Ciwuih](https://bit.ly/3Ciwuih)
+
+
+<center>
+<iframe src="https://giphy.com/embed/26DMZEsanUIYHFO9y" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</center>
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/26DMZEsanUIYHFO9y)
+:::
