@@ -49,10 +49,10 @@ Quelle: [Etsy](https://www.etsy.com/de/listing/1032124670/emotion-check-in-emoti
 
 - Unterstützen Sie sich gegenseitig.
 
-## UN Ziel 3: Gesundheit und Wohlergehen
+## UN Ziel 4: Hochwertige Bildung
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&hasOpenSansFont=false" title="" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="https://upgrader.gapminder.org/q/3/embed?hasBorder=true&hasOpenSansFont=false" title="86% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
 :::
 
 ## Was beim letzten Mal geschah ...
@@ -105,9 +105,9 @@ Quelle: [Etsy](https://www.etsy.com/de/listing/1032124670/emotion-check-in-emoti
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf `QD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
-![](img/RStudio2.png){fig-align="center" width="60%"}
+![](img/RStudio_Project_QD.png){fig-align="center" width="60%"}
 
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
@@ -155,6 +155,6 @@ Wir müssen mit Risiken und Unsicherheiten umgehen. Häufig ist Sicherheit eine 
 Diskutieren Sie das Ihrer Gruppe zugeordnete Problem!
 *Hinweis:* Antworten bitte in einem anderen Tool vorbereiten und noch nicht in das Google-Dokument eintragen.
 
-&#x1F4AA; [https://bit.ly/3Cv6L6l](https://bit.ly/3Cv6L6l)
+&#x1F4AA; [https://bit.ly/3rv8pPl](https://bit.ly/3rv8pPl)
 
 
