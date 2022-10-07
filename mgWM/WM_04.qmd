@@ -1,0 +1,97 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Vierter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WM | Matthias Gehrke"
+    chalkboard: true
+---
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+<!-- ===> noch anpassen <=== -->
+&#x1F4AA; [https://tweedback.de/eynp](https://tweedback.de/eynp)
+
+## Stimmung?
+
+Auf der Skala von *Homer Simpson*: Wie geht es Ihnen heute?
+
+![](img/Homer_Simpson2.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@paugr](https://twitter.com/paugr/status/1252233029201719296)
+:::
+
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 4: Hochwertige Bildung
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/3/embed?hasBorder=true&hasOpenSansFont=false" title="86% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Was beim letzten Mal geschah ...
+
+- **Säulendiagramm:** Häufigkeiten von kategorialen oder metrisch diskreten Merkmalen werden als Säulen (vertikal) dargestellt
+
+- **Balkendiagramm:** wie Säulendiagramm, nur horizontal
+
+- **Mosaikplot:** Zusammenhang zweier kategorialer Variablen (y-Achse: abhängige Variable, x-Achse: unabhängige Variable)
+
+- **Häufigkeiten:** absolute und relative Häufigkeiten (Anteile)
+
+- **Kreuztabelle:** Darstellung von in der Regel gruppierten (relativen) Häufigkeiten
+  
+## Heutiges Thema &#127979;
+
+- Explorative Datenanalyse 
+
+  - Schwerpunkt **[metrische]{.green}** Daten
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
+
+- Sie kennen zentrale Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
+- Sie wissen, welcher dieser Lage- und Streumaße bei nominalen und ordinalen Merkmalen angewendet werden können.
+- Sie können Verteilungsformen charakterisieren und unterscheiden.
+- Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio2.png){fig-align="center" width="60%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Datei `2b_Fueleconomy.Rmd` im Ordner `fallstudien` öffnen.
+
+
+## Risk-Literacy
+
+Abbildungen dienen dazu, die Verteilung von Variablen zu visualisieren. Doch was sehen wir dort eigentlich, welche Vor- und Nachteile haben Sie und für welches Skalenniveau sollten Sie verwendet werden ...
+
+Diskutieren Sie die Ihrer Gruppe zugeordnete Graphik!
+
+&#x1F4AA; [https://bit.ly/3rDoFOb](https://bit.ly/3rDoFOb)
+
+
