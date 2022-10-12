@@ -1,0 +1,103 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Fünfter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WM | Matthias Gehrke"
+    chalkboard: true
+---
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/eyvf](https://tweedback.de/eyvf)
+
+## Stimmung?
+
+Auf der Skala von *Homer Simpson*: Wie geht es Ihnen heute?
+
+![](img/Homer_Simpson2.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@paugr](https://twitter.com/paugr/status/1252233029201719296)
+:::
+
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 5: Gender Equality
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/10/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>:::
+
+## Was beim letzten Mal geschah ...
+
+- **Säulendiagramm:** Häufigkeiten von kategorialen oder metrisch diskreten Merkmalen werden als Säulen (vertikal) dargestellt
+
+- **Balkendiagramm:** wie Säulendiagramm, nur horizontal
+
+- **Mosaikplot:** Zusammenhang zweier kategorialer Variablen (y-Achse: abhängige Variable, x-Achse: unabhängige Variable)
+
+- **Häufigkeiten:** absolute und relative Häufigkeiten (Anteile)
+
+- **Kreuztabelle:** Darstellung von in der Regel gruppierten (relativen) Häufigkeiten
+  
+## Heutiges Thema &#127979;
+
+- Explorative Datenanalyse 
+
+  - Fortsetzung Analyse **[kategorialer]{.green}** Daten
+  - Schwerpunkt **[metrische]{.green}** Daten
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
+
+- Sie können Anteile, Wahrscheinlichkeiten und bedingte Wahrscheinlichkeiten interpretieren.
+
+## Was Sie auch noch lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie kennen zentrale Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
+- Sie wissen, welcher dieser Lage- und Streumaße bei nominalen und ordinalen Merkmalen angewendet werden können.
+- Sie können Verteilungsformen charakterisieren und unterscheiden.
+- Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio_Project_QD.png){fig-align="center" width="60%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+
+Zunächst noch einmal `2a_Filmgenres.Rmd` im Ordner `fallstudien` öffnen, später dann `2b_Fueleconomy.Rmd`.
+
+
+## Risk-Literacy
+
+Wir müssen mit Risiken und Unsicherheiten umgehen. Häufig ist Sicherheit eine Illusion. Trotzdem müssen wir Entscheidungen treffen ...
+
+Diskutieren Sie das Ihrer Gruppe zugeordnete Problem!
+*Hinweis:* Antworten bitte in einem anderen Tool vorbereiten und noch nicht in das Google-Dokument eintragen.
+
+&#x1F4AA; [https://bit.ly/3CPAt69](https://bit.ly/3CPAt69)
+
+
+
