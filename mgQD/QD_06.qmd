@@ -1,0 +1,119 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Sechster Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/ejt3/](https://tweedback.de/ejt3/)
+
+## Stimmung?
+
+Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
+
+![](img/Elon_Musk_eres_hoy_cut.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)
+:::
+
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 6: Clean water and sanitation
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/6/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie haben den Umgang mit Anteilen, Anteilen innerhalb von Anteilen und Wahrscheinlichkeiten intensiviert
+- **Bedingte Wahrscheinlichkeit:** [$P(A|B)$]{.small}
+- **Totale Wahrscheinlichkeit:**  
+  [$P(A) = P(A|B) \cdot P(B) + P(A|!B) \cdot P(!B)$]{.small}  
+  allgemein:  
+  [$P(A) = P(A|B_1) \cdot P(B_1) + P(A|B_2) \cdot P(B_2) + ... + P(A|B_k) \cdot P(B_k)$]{.small}
+- **Satz von Bayes:**  
+  [$P(B|A) = \frac{P(A|B) \cdot P(B)}{P(A)}$]{.small}
+
+
+## Heutiges Thema &#127979;
+
+- Explorative Datenanalyse und Deskriptive Statistik: Schwerpunkt **[metrische]{.green}** Daten
+
+::: {.center}
+<iframe src="https://giphy.com/embed/XXAKgZR1EbAqmuGBE9" width="360" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/Verohallinto-superhero-verohallinto-epic-tax-guy-XXAKgZR1EbAqmuGBE9)
+:::
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie kennen zentrale Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
+- Sie wissen, welcher dieser Lage- und Streumaße bei nominalen und ordinalen Merkmalen angewendet werden können.
+- Sie können Verteilungsformen charakterisieren und unterscheiden.
+- Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio_Project_QD.png){fig-align="center" width="60%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+`Fueleconomy.Rmd` im Ordner `fallstudien` öffnen.
+
+## Exploring Histograms
+
+::: {.center}
+<iframe src="http://tinlizzie.org/histograms/" width="900" height="525"></iframe>
+:::
+
+::: {.aside}
+[http://tinlizzie.org/histograms/](http://tinlizzie.org/histograms/)
+:::
+
+
+## Verteilungsformen
+
+<iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/2eFFzErlU4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+::: {.aside}
+[https://youtu.be/2eFFzErlU4c](https://youtu.be/2eFFzErlU4c)
+:::
+
+## Grafen lesen
+
+Abbildungen dienen dazu, die Verteilung von Variablen zu visualisieren. Doch was sehen wir dort eigentlich, welche Vor- und Nachteile haben Sie und für welches Skalenniveau sollten Sie verwendet werden ...
+
+Diskutieren Sie die Ihrer Gruppe zugeordnete Graphik!
+
+&#x1F4AA; [https://bit.ly/3SmMm8x](https://bit.ly/3SmMm8x)
+
