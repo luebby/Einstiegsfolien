@@ -63,13 +63,6 @@ Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
 <iframe src="https://upgrader.gapminder.org/q/1/embed?hasBorder=true&hasOpenSansFont=false" title="" width="100%" height="500" style="border:none;"></iframe>
 :::
 
-## Hybride Vorlesung
-
-- Auf Ihrem Wunsch hin wird wird die Vorlesung bis auf Weiteres optional auch hybrid angeboten.
-
-- Die Didaktik orientiert sich an der Präsenzvorlesung im Hörsaal.
-
-- Viele Studien (und eigene Daten) zeigen, dass vielen Studierenden das Lernen in präsenz häufig leichter fällt als digital. Achten Sie daher auf sich, damit der Nachteilsausgleich nicht für Sie zum Nachteil wird.
 
 ## Heutiges Thema &#127979;
 
@@ -117,7 +110,7 @@ Am Ende des Semesters wird Ihr Lernergebnis durch &#x1F469;&#x200D;&#x1F3EB; ver
 
 Diskutieren Sie innerhalb Ihres Raumes das genannte Gütekriterium. Was kann ich tun, damit das [Messergebnis]{.gray} gut mit dem [Wert der Eigenschaft]{.blue} übereinstimmt?
 
-&#x1F4AA; [https://bit.ly/3LGDngp](https://bit.ly/3LGDngp)
+&#x1F4AA; [https://bit.ly/3D3Gblf](https://bit.ly/3D3Gblf)
 
 ## Datentabelle
 
@@ -166,11 +159,11 @@ Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `WMQD-WiSe-2022.Rproj` starten.
+- Lokal: RStudio durch klick auf `WM-WiSe-2022.Rproj` starten.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-Datei `Gummibaerchen_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen.
+Datei `EineLuege_Fortsetzung.Rmd` im Ordner `fallstudie` öffnen.
 
 ## Eine wichtige Gleichung (I/II)
 
