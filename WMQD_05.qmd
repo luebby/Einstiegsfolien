@@ -1,0 +1,97 @@
+---
+title: "Wissenschaftliche Methoden - Quantitative Datenanalyse"
+subtitle: "Fünfter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WMQD | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/xxxx/](https://tweedback.de/xxxx/)
+
+<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+## Stimmung?
+
+Auf der Skala von *Homer Simpson*: Wie geht es Ihnen heute?
+
+![](img/Homer_Simpson2.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@paugr](https://twitter.com/paugr/status/1252233029201719296)
+:::
+
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 5: Gender Equality
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/10/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>:::
+
+  
+## Heutiges Thema &#127979;
+
+- Explorative Datenanalyse und Deskriptive Statistik: Schwerpunkt **[metrische]{.green}** Daten
+
+::: {.center}
+<iframe src="https://giphy.com/embed/XXAKgZR1EbAqmuGBE9" width="360" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/Verohallinto-superhero-verohallinto-epic-tax-guy-XXAKgZR1EbAqmuGBE9)
+:::
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie kennen zentrale Statistiken (Lage- und Streumaße) und Visualisierungen für metrische Variablen und können diese anwenden.
+- Sie wissen, welcher dieser Lage- und Streumaße bei nominalen und ordinalen Merkmalen angewendet werden können.
+- Sie können Verteilungsformen charakterisieren und unterscheiden.
+- Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+`Lego.Rmd` im Ordner `fallstudien` öffnen.
+
+## Exploring Histograms
+
+::: {.center}
+<iframe src="http://tinlizzie.org/histograms/" width="900" height="525"></iframe>
+:::
+
+::: {.aside}
+[http://tinlizzie.org/histograms/](http://tinlizzie.org/histograms/)
+:::
+
+
+## Verteilungsformen
+
+<iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/2eFFzErlU4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+::: {.aside}
+[https://youtu.be/2eFFzErlU4c](https://youtu.be/2eFFzErlU4c)
+:::

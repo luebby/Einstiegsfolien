@@ -1,0 +1,85 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Sechster Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/xxxx/](https://tweedback.de/xxxx/)
+
+<br> 
+Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+## Stimmung?
+
+Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
+
+![](img/Elon_Musk_eres_hoy_cut.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)
+:::
+
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## UN Ziel 6: Clean water and sanitation
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/6/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie haben **Histogramme** kennenglelernt.
+
+- Sie können Verteilungsformen unterscheiden.
+
+## Heutiges Thema &#127979;
+
+- Explorative Datenanalyse und Deskriptive Statistik Fortsetzung: Schwerpunkt **[metrische]{.green}** Daten
+
+
+::: center
+<iframe src="https://giphy.com/embed/ywkMBoVfgta5iKirUA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: aside
+[via GIPHY](https://giphy.com/gifs/cbs-ywkMBoVfgta5iKirUA)
+:::
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie kennen zentrale Statistiken (Lage- und Streumaße) für metrische Variablen und können diese anwenden.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+`Fueleconomy.Rmd` im Ordner `fallstudien` öffnen.
