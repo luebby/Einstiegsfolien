@@ -1,0 +1,125 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Siebter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/ebcc/](https://tweedback.de/ebcc/)
+
+## Stimmung?
+
+<!-- noch anpassen -->
+
+::: center
+<iframe src="https://giphy.com/embed/l4pLXMFYQmTM2se7m" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: aside
+Quelle: [via GIPHY](https://giphy.com/gifs/abcnetwork-tired-the-middle-l4pLXMFYQmTM2se7m)
+:::
+
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 7: Affordable and clean energy
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/59/embed?hasBorder=true&hasOpenSansFont=false" title="83% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie können ein **Histogramm** erstellen und interpretieren.
+- Sie wissen, was eine Dichte- und was eine (empirische) **Verteilungsfunktion** ist.
+- Sie kennen verschiedenen Verteilungsformen: **symmetrisch, rechtsschief, linksschief, unimodal, bimodal, multimodal**, Ergänzung: **gleichverteilt**.
+
+## ... und noch ...
+
+- Sie kennen die wichtigsten Lagemaße:
+  - **arithmetisches Mittel** (*mean*) $\bar x$,
+  - **Median** (auch Zentralwert) $\bar x_Z$,
+  - **Modus** (oder Modalwert),
+  - **Minimum, Maximum**,
+  - **Quantile** und **Quartile**
+  
+## ... was noch ...
+  
+- ... und Streumaße:
+  - **Varianz** (mittlere quadratische Abweichung) $s^2$,
+  - **Standardabweichung** (*standard deviation, sd*), Wurzel der Varianz,
+  - **Interquartilsabstand** (*interquartile range, iqr*), Spannweite zwischen Q1 und Q3,
+  - **Spannweite** (*range*), Spannweite zwischen Minimum und Maximum.
+
+
+## Heutiges Thema &#127979;
+
+- Letzte Schritte in der explorative Datenanalyse und deskriptiven Statistik: weiter mit **[metrischen]{.green}** Daten
+- Normalverteilung 
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie können einen Boxplot erstellen und interpretieren.
+- Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
+
+## ... und weiter &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie lernen eine theoretische Verteilung, die **[Normalverteilung]{.green}**, kennen.
+- Sie können die **[Z-Transformation]{.green}** anwenden und die Ergebnisse interpretieren.
+- Sie wissen, was die **[68-95-99.7%-Regel]{.green}** bedeutet.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio_Project_QD.png){fig-align="center" width="60%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Öffnen Sie zunächst noch einmal `2b_Fueleconomy.Rmd` im Ordner `fallstudien`. Im Anschluss werden wir uns mit `2c_LEGO.Rmd` und `3_Groessenverhaeltnisse.Rmd` beschäftigen.
+
+## Think -- Pair -- Share
+
+Es liegen 5 Beobachtungen vor.
+
+- Modus = 24
+
+- Median = 21
+
+- Arithmetischer Mittelwert = 20
+
+Was sind die 5 Beobachtungen?
+
+
+
+## Grafen lesen
+
+Abbildungen dienen dazu, die Verteilung von Variablen zu visualisieren. Doch was sehen wir dort eigentlich, welche Vor- und Nachteile haben Sie und für welches Skalenniveau sollten Sie verwendet werden ...
+
+Diskutieren Sie die Ihrer Gruppe zugeordnete Graphik!
+
+&#x1F4AA; [https://bit.ly/3SmMm8x](https://bit.ly/3SmMm8x)
+
