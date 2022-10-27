@@ -62,3 +62,19 @@ Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1338206742371594240)
 - Kap. 2.3: Rentenrechnung
 - Kap. 2.4: Tilgungsrechnung
 
+<br>
+
+- Kap. 3.1: Matrizen Vektoren und Rechenoperationen (Einstieg)
+
+## Matrizen
+
+<br>
+
+::: center
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CWIfwZ99AVA?start=62" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+
+::: aside
+[https://youtu.be/CWIfwZ99AVA?t=62](https://youtu.be/CWIfwZ99AVA?t=62)
+:::

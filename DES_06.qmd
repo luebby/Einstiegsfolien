@@ -15,7 +15,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/xxxx/](https://tweedback.de/xxxx/)
+&#x1F4AA; [https://tweedback.de/enpu](https://tweedback.de/enpu)
 
 <br> 
 Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
@@ -74,6 +74,14 @@ Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
 
 - Sie kennen zentrale Statistiken (Lage- und Streumaße) für metrische Variablen und können diese anwenden.
+
+- Sie lernen den Boxplot kennen.
+
+**Tipp**: Öffnen Sie:
+
+- Übersicht: Explorative Datenanalyse und Deskriptive Statistik
+
+- R Befehlsübersicht
 
 
 ## Fallstudie &#x1F4BB;

@@ -15,7 +15,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/xxxx/](https://tweedback.de/xxxx/)
+&#x1F4AA; [https://tweedback.de/enpt](https://tweedback.de/enpt)
 
 <br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
 
@@ -69,14 +69,6 @@ Quelle: [@paugr](https://twitter.com/paugr/status/1252233029201719296)
 - Sie können Verteilungsformen charakterisieren und unterscheiden.
 - Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
 
-## Fallstudie &#x1F4BB;
-
-- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
-
-- RStudio Cloud: In **Ihr** Projekt einloggen.  
-
-`Lego.Rmd` im Ordner `fallstudien` öffnen.
-
 ## Exploring Histograms
 
 ::: {.center}
@@ -95,3 +87,12 @@ Quelle: [@paugr](https://twitter.com/paugr/status/1252233029201719296)
 ::: {.aside}
 [https://youtu.be/2eFFzErlU4c](https://youtu.be/2eFFzErlU4c)
 :::
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+`Lego.Rmd` im Ordner `fallstudien` öffnen.
+

@@ -1,0 +1,88 @@
+---
+title: "Wissenschaftliche Methoden - Quantitative Datenanalyse"
+subtitle: "Sechster Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WMQD | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/xxx](https://tweedback.de/xxx)
+
+<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+
+## Stimmung?
+
+Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
+
+![](img/Elon_Musk_eres_hoy_cut.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)
+:::
+
+
+## Verantwortung übernehmen!
+
+::: {.columns}
+
+:::: {.column width="50%"}
+
+Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+::::: aside
+Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladder)
+:::::
+
+::::
+
+:::: {.column width="50"}
+![](img/sketchplanations-the-accountability-ladder.png){fig-align="center" }
+::::
+
+:::
+
+
+## UN Ziel 6: Clean water and sanitation
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/6/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+
+## Heutiges Thema &#127979;
+
+- Normalverteilung
+
+![](https://raw.githubusercontent.com/allisonhorst/stats-illustrations/main/other-stats-artwork/not_normal.png){fig-align="center" width="50%"}
+
+::: {.aside}
+Abbildung: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Wie bei einer Normalverteilung Wahrscheinlichkeiten und Quantile bestimmt werden können.
+
+- Satz von Bayes und wie Sie ihn nutzen können.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+- `Groessenverteilung.Rmd` im Ordner `fallstudien` öffnen.
+
