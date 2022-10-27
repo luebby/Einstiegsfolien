@@ -1,0 +1,76 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Achter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/en22/](https://tweedback.de/en22/)
+
+## Stimmung -- welche Pommes sind Sie heute?
+
+![](img/pommes_frites2_cut.jpg){fig-align="center" width="60%"}
+
+
+::: aside
+Quelle: [Favor Delivery](https://www.facebook.com/askfavor/posts/3588823361147035)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 8: Decent work and economic growth
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/56/embed?hasBorder=true&hasOpenSansFont=false" title="82% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie wissen, was ein Boxplot zeigt und können diesen mit den dazugehörigen Kennzahlen in Verbindung bringen.
+- Sie können den Zusammenhang zwischen zwei metrischen Variablen darstellen und den Korrelationskoeffizienten interpretieren.
+
+## Heutiges Thema &#127979;
+
+- Normalverteilung 
+- Einstieg in die lineare Regression
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie lernen eine theoretische Verteilung, die **[Normalverteilung]{.green}**, kennen.
+- Sie können die **[Z-Transformation]{.green}** anwenden und die Ergebnisse interpretieren.
+- Sie wissen, was die **[68-95-99.7%-Regel]{.green}** bedeutet.
+- Sie machen erste Schritte mit der linearen Regression
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio_Project_QD.png){fig-align="center" width="60%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Öffnen Sie die Fallstudie `3_Groessenverhaeltnisse.Rmd`.
+
