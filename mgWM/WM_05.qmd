@@ -1,0 +1,139 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Fünfter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WM | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/etkw/](https://tweedback.de/etkw/)
+
+## Stimmung?
+
+Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
+
+![](img/Elon_Musk_eres_hoy_cut.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)
+:::
+
+
+## Verantwortung übernehmen!
+
+::: {.columns}
+
+:::: {.column width="50%"}
+
+Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+::::: aside
+Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladder)
+:::::
+
+::::
+
+:::: {.column width="50"}
+![](img/sketchplanations-the-accountability-ladder.png){fig-align="center" }
+::::
+
+:::
+
+
+## UN Ziel 5: Gender Equality
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/10/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie können ein **Histogramm** erstellen und interpretieren.
+- Sie wissen, was eine Dichte- und was eine (empirische) **Verteilungsfunktion** ist.
+- Sie kennen verschiedenen Verteilungsformen: **symmetrisch, rechtsschief, linksschief, unimodal, bimodal, multimodal**, Ergänzung: **gleichverteilt**.
+
+## ... und noch ...
+
+- Sie kennen die wichtigsten Lagemaße:
+  - **arithmetisches Mittel** (*mean*) $\bar x$,
+  - **Median** (auch Zentralwert) $\bar x_Z$,
+  - **Modus** (oder Modalwert),
+  - **Minimum, Maximum**,
+  - **Quantile** und **Quartile**
+  
+## ... was noch ...
+  
+- ... und Streumaße:
+  - **Varianz** (mittlere quadratische Abweichung) $s^2$,
+  - **Standardabweichung** (*standard deviation, sd*), Wurzel der Varianz,
+  - **Interquartilsabstand** (*interquartile range, iqr*), Spannweite zwischen Q1 und Q3,
+  - **Spannweite** (*range*), Spannweite zwischen Minimum und Maximum.
+- und Sie wissen, was ein Boxplot zeigt und können diesen mit den dazugehörigen Kennzahlen in Verbindung bringen.
+
+## Noch ein Nachtrag zum letzten Mal: Exploring Histograms ...
+
+::: {.center}
+<iframe src="http://tinlizzie.org/histograms/" width="750" height="438"></iframe>
+:::
+
+::: {.aside}
+[http://tinlizzie.org/histograms/](http://tinlizzie.org/histograms/)
+:::
+
+
+## ... und Verteilungsformen
+
+<iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/2eFFzErlU4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+::: {.aside}
+[https://youtu.be/2eFFzErlU4c](https://youtu.be/2eFFzErlU4c)
+:::
+
+## Think -- Pair -- Share
+
+Es liegen 5 Beobachtungen vor.
+
+- Modus = 24
+
+- Median = 21
+
+- Arithmetischer Mittelwert = 20
+
+Was sind die 5 Beobachtungen?
+
+
+
+## Heutiges Thema &#127979;
+
+- Zusammenhang zwischen **[metrischen]{.green}** Daten
+- Erste Schritte in der linearen Regression
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
+- Sie entwickeln mit Hilfe der linearen Regression ein erstes lineares Modell.
+- Sie können das Ergebnis einer linearen Regression interpretieren.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch Klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio2.png){fig-align="center" width="60%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Zunächst Datei `2c_Lego.Rmd` im Ordner `fallstudien` öffnen. 
+Später arbeiten wir dann noch mit `3a_LEGO_Fortsetzung.Rmd`.
+
