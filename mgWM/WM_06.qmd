@@ -1,0 +1,83 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Sechster Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WM | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/et8p/](https://tweedback.de/et8p/)
+
+## Stimmung -- welche Pommes sind Sie heute?
+
+![](img/pommes_frites2_cut.jpg){fig-align="center" width="60%"}
+
+
+::: aside
+Quelle: [Favor Delivery](https://www.facebook.com/askfavor/posts/3588823361147035)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 6: Clean water and sanitation
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/6/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+
+## Was beim letzten Mal geschah ...
+
+- Sie können den Zusammenhang zwischen metrischen Variablen visualisieren und interpretieren.
+- Sie wissen, was die **Kovarianz** ist.
+- Sie kennen den (Pearson-)**Korrelationskoeffizienten** und wissen um die Vorteile gegenüber der Kovarianz.
+
+## Heutiges Thema &#127979;
+
+- Univariate lineare Regression
+- Inferenz in der Regression
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie entwickeln mit Hilfe der linearen Regression ein erstes lineares Modell.
+- Sie können das Ergebnis einer linearen Regression interpretieren.
+
+## ... und noch ... &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie kennen den Unterschied zwischen dem Ergebnis in der Stichprobe und der Interpretation des Ergebnisses im Zusammenhang mit der Population.
+- Sie lernen mit Zufall und Ziehen von Stichproben umzugehen.
+- Sie wissen, was ein Konfidenzintervall ist.
+- Sie kennen den Unterschied zwischen Null- und Alternativhypothese.
+- Sie wenden das Falsifikationsprinzip an.
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch Klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio2.png){fig-align="center" width="40%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Öffnen Sie die Datei `3a_LEGO_Fortsetzung.Rmd` im Ordner `fallstudien`. 
+

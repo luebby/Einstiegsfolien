@@ -15,7 +15,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/etkw/](https://tweedback.de/etkw/)
+&#x1F4AA; [https://tweedback.de/et5t/](https://tweedback.de/et5t/)
 
 ## Stimmung?
 
@@ -28,6 +28,12 @@ Auf der Skala von *Elon Musk*: Wie fühlen Sie sich heute?
 Quelle: [@Empoweringrace](https://www.pinterest.de/pin/1196337391792572/)
 :::
 
+
+## UN Ziel 5: Gender Equality
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/10/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
 
 ## Verantwortung übernehmen!
 
@@ -48,12 +54,6 @@ Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladde
 ::::
 
 :::
-
-
-## UN Ziel 5: Gender Equality
-
-::: center
-<iframe src="https://upgrader.gapminder.org/q/10/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>:::
 
 ## Was beim letzten Mal geschah ...
 
@@ -114,13 +114,15 @@ Was sind die 5 Beobachtungen?
 
 ## Heutiges Thema &#127979;
 
-- Zusammenhang zwischen **[metrischen]{.green}** Daten
-- Erste Schritte in der linearen Regression
+- Letzte Schritte in der explorativen Datenanalyse von **[metrischen]{.green}** Daten.
+- Zusammenhang zwischen **[metrischen]{.green}** Daten.
+- Erste Schritte in der linearen Regression.
 
 
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
 
 - Sie können den Zusammenhang zwischen zwei metrischen Merkmalen visualisieren und interpretieren.
+- Sie wissen, was Kovarianz und die Korrelation sind.
 - Sie entwickeln mit Hilfe der linearen Regression ein erstes lineares Modell.
 - Sie können das Ergebnis einer linearen Regression interpretieren.
 
@@ -129,11 +131,52 @@ Was sind die 5 Beobachtungen?
 
 - Lokal: RStudio durch Klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
-![](img/RStudio2.png){fig-align="center" width="60%"}
+![](img/RStudio2.png){fig-align="center" width="40%"}
 
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-Zunächst Datei `2c_Lego.Rmd` im Ordner `fallstudien` öffnen. 
-Später arbeiten wir dann noch mit `3a_LEGO_Fortsetzung.Rmd`.
+Zunächst starten wir noch einmal mit der Datei `2b_Fueleconomy.Rmd` im Ordner `fallstudien`. 
+
+
+## Korrelation (I/III)
+
+- **Kovarianz** beschreibt den linearen Zusammenhang zweier metrischer Merkmale: $s_{xy}=\frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})$
+  - Die Werte beider Variablen einer Beobachtung werden mit dem jeweiligen Mittelwert der Variable verglichen. Vom Produkt der gemeinsamen Abweichungen wird $\approx$ Mittelwert berechnet.
+
+- Der **Korrelationskoeffizient** nach Pearson $r=\frac{s_{xy}}{s_x \cdot s_y}$ normiert die Kovarianz auf den Wertebereich $-1$ bis $+1$ durch Division der Kovarianz durch das Produkt der Standardabweichungen.
+
+
+## Korrelation (II/III)
+
+- Korrelationskoeffizienten $r>0$ zeigen einen positiven linearen Zusammenhang an, $r<0$ einen negativen. Je größer $|r|$, desto größer ist der lineare Zusammenhang.
+
+- **Achtung**: Korrelation heißt nicht zwangsläufig Kausalität, keine 
+Korrelation heißt nicht zwangsläufig kein Zusammenhang oder keine Kausalität.
+
+## Korrelation (III/III)
+
+::: {.center}
+<iframe src="https://fomshinyapps.shinyapps.io/Korrelation/" width="375" height="435"></iframe>
+:::
+
+::: {.aside}
+[https://fomshinyapps.shinyapps.io/Korrelation/](https://fomshinyapps.shinyapps.io/Korrelation/)
+:::
+
+
+## Visualisierung
+
+Erst visualisieren, dann korrelieren!  
+$\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sind nahezu konstant.
+
+
+::: {.center}
+<iframe src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif" width="750" height="435"></iframe>
+:::
+
+::: {.aside}
+[https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs/)
+:::
+
 

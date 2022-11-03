@@ -1,0 +1,85 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Neunter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/etwt/](https://tweedback.de/etwt/)
+
+## Wie ist Ihre Stimmung heute?
+
+![](img/annalena_baerbock.jpg){fig-align="center" width="50%"}
+
+
+::: aside
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1442743577126264832)
+:::
+
+## UN Ziel 9: Industry, innovation and infrastructure
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/56/embed?hasBorder=true&hasOpenSansFont=false" title="82% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Verantwortung übernehmen!
+
+::: {.columns}
+
+:::: {.column width="50%"}
+
+Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+::::: aside
+Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladder)
+:::::
+
+::::
+
+:::: {.column width="50"}
+![](img/sketchplanations-the-accountability-ladder.png){fig-align="center" }
+::::
+
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie kennen eine wichtige theoretische Verteilung, die **[Normalverteilung]{.green}**.
+- Sie wissen, was eine Dichte- und was eine Verteilungsfunktion ist.
+- Sie kennen die **[Z-Transformation]{.green}** und können damit umgehen.
+- Sie wissen die **[68-95-99.7%-Regel]{.green}** zu nutzen.
+
+
+## Heutiges Thema &#127979;
+
+- Univariate lineare Regression
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie entwickeln mit Hilfe der linearen Regression ein erstes lineares Modell.
+- Sie können das Ergebnis einer linearen Regression interpretieren.
+- Sie lernen mit Zufall und Ziehen von Stichproben umzugehen.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `QD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio_Project_QD.png){fig-align="center" width="30%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Öffnen Sie die Fallstudie `4a_LEGO_Fortsetzung.Rmd`.
+
