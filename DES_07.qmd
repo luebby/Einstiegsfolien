@@ -1,0 +1,103 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Siebter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/xxxx](https://tweedback.de/xxxx)
+
+<br> 
+Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+## Stimmung?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: center
+**A**:
+
+<iframe src="https://giphy.com/embed/l4pLXMFYQmTM2se7m" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: aside
+Quelle: [via GIPHY](https://giphy.com/gifs/abcnetwork-tired-the-middle-l4pLXMFYQmTM2se7m)
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: center
+**B**:
+<iframe src="https://giphy.com/embed/pttEsx1vDDhYs" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: aside
+Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
+:::
+
+:::
+
+:::
+
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 7: Affordable and clean energy
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/59/embed?hasBorder=true&hasOpenSansFont=false" title="83% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Heutiges Thema &#127979;
+
+- Normalverteilung
+
+![](https://raw.githubusercontent.com/allisonhorst/stats-illustrations/main/other-stats-artwork/not_normal.png){fig-align="center" width="50%"}
+
+::: {.aside}
+Abbildung: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie lernen eine theoretische Verteilung, die **[Normalverteilung]{.green}**, kennen.
+
+- Sie können die **[Z-Transformation]{.green}** anwenden und die Ergebnisse interpretieren.
+
+- Sie wissen, was die **[68-95-99.7%-Regel]{.green}** bedeutet.
+
+- Sie lernen den Satz von Bayes anzuwenden.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+- `Groessenverteilung.Rmd` im Ordner `fallstudien` öffnen.
