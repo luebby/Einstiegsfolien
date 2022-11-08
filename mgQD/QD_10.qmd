@@ -1,0 +1,86 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Zehnter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/et17/](https://tweedback.de/et17/)
+
+## Wie ist Ihre Stimmung heute?
+
+![](img/Skala_kuenstliche_Intelligenz.png){fig-align="center" width="50%"}
+
+
+::: aside
+Quelle: [@mhaseneyer](https://twitter.com/mhaseneyer/)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## UN Ziel 10: Reduced inequalities
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/71/embed?hasBorder=true&hasOpenSansFont=false" title="81% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie können ein lineares Modell aufsetzen und die Ergebnisse interpretieren.
+- Sie wissen, was der y-Achsenabschnitt und was die Steigung bedeuten.
+- Sie kennen die Unsicherheit der Schätzung und können ein Konfidenzintervall interpretieren.
+- Sie wissen, was das Bestimmtheitsmaß ist.
+
+
+## Heutiges Thema &#127979;
+
+- Fortsetzung Inferenz in der Regression
+- Regression mit kategorialen unabhängigen Variablen
+- Multiple lineare Regression
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie lernen Null- und Alternativhypothesen kennen.
+- Sie können Hypothesen falsifizieren und wissen, was ein p-Wert ist.
+- Sie können die Modellzusammenfassung interpretieren.
+
+## ... und weiter ... &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie können die Koeffizienten zu unterschiedlich skalierten unabhängigen Variablen interpretieren.
+- Sie wenden die lineare Regression mit einer oder mehreren unabhängigen Variablen an.
+- Sie können zwischen verschiedenen Regressionsmodellen auswählen.
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `QD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio_Project_QD.png){fig-align="center" width="30%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Und weiter mit der Fallstudie `4a_LEGO_Fortsetzung.Rmd`.
+
