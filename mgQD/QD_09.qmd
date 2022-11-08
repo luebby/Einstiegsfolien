@@ -29,7 +29,9 @@ Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1442743577126264832)
 ## UN Ziel 9: Industry, innovation and infrastructure
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/56/embed?hasBorder=true&hasOpenSansFont=false" title="82% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+<iframe src="https://upgrader.gapminder.org/q/64/embed?hasBorder=true&hasOpenSansFont=false" title="66% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
 :::
 
 ## Verantwortung übernehmen!
