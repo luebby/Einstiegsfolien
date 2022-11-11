@@ -11,13 +11,15 @@ format:
 
 ## Zur Erinnerung
 
-&#x270F; Arbeiten Sie aktiv mit.
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/xxxx](https://tweedback.de/xxxx)
+&#x1F4AA; [https://tweedback.de/ethj](https://tweedback.de/ethj)
 
 <br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+Die **Studienbriefe** strukturieren Ihre Vor- und Nacharbeit.
 
 ## Stimmung?
 
@@ -53,18 +55,6 @@ Quelle: [via GIPHY](https://giphy.com/gifs/pttEsx1vDDhYs)
 :::
 
 
-## Tipps für den Vorlesungserfolg
-
-- Kommen Sie zur Vorlesung!
-
-- Vermeiden Sie Ablenkung.
-
-- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
-
-- Stellen Sie Fragen.
-
-- Unterstützen Sie sich gegenseitig.
-
 ## UN Ziel 7: Affordable and clean energy
 
 ::: center
@@ -92,29 +82,39 @@ Abbildung: [https://xkcd.com/552](https://xkcd.com/552)
 
 - Sie lernen den **[Korrelationskoeffizient]{.green}**, kennen.
 
-## Korrelation (I/III)
+<br>
+
+**Tipp**: Öffnen Sie:
+
+- Übersicht: Explorative Datenanalyse und Deskriptive Statistik
+
+- R Befehlsübersicht
+
+## Streudiagramm
+
+::: {.center}
+<iframe src="https://fomshinyapps.shinyapps.io/Korrelation/" width="475" height="535"></iframe>
+:::
+
+::: {.aside}
+[https://fomshinyapps.shinyapps.io/Korrelation/](https://fomshinyapps.shinyapps.io/Korrelation/)
+:::
+
+
+## Korrelation (I/II)
 
 - **Kovarianz** beschreibt den linearen Zusammenhang zweier metrischer Merkmale: $s_{xy}=\frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})$: Die Werte beider Variablen einer Beobachtung werden mit dem jeweiligen Mittelwert der Variable verglichen. Vom Produkt der gemeinsamen Abweichungen wird $\approx$ Mittelwert berechnet.
 
 - Der **Korrelationskoeffizient** nach Pearson $r=\frac{s_{xy}}{sd_x \cdot sd_y}$ normiert die Kovarianz auf den Wertebereich $-1$ bis $+1$ durch Division der Kovarianz durch das Produkt der Standardabweichungen.
 
 
-## Korrelation (II/III)
+## Korrelation (II/II)
 
 - Korrelationskoeffizienten $r>0$ zeigen einen positiven linearen Zusammenhang an, $r<0$ einen negativen. Je größer $|r|$, desto größer ist der lineare Zusammenhang.
 
 - **Achtung**: Korrelation heißt nicht zwangsläufig Kausalität, keine 
-Korrelation heißt nicht zwangsläufig kein Zusammenhang oder keine Kausalität.
+Korrelation heißt nicht zwangsläufig kein Zusammenhang oder keine Kausalität. Beispiele unter [http://www.tylervigen.com/spurious-correlations](http://www.tylervigen.com/spurious-correlations).
 
-## Korrelation (III/III)
-
-::: {.center}
-<iframe src="https://fomshinyapps.shinyapps.io/Korrelation/" width="375" height="435"></iframe>
-:::
-
-::: {.aside}
-[https://fomshinyapps.shinyapps.io/Korrelation/](https://fomshinyapps.shinyapps.io/Korrelation/)
-:::
 
 
 ## Visualisierung
@@ -130,6 +130,15 @@ Erst visualisieren, dann korrelieren! $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sin
 [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs/)
 :::
 
+## Korrelation und Kausalität
+
+::: center
+<iframe src="https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation" title="" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+::: aside
+Quelle: [https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation](https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation)
+:::
 
 ## Fallstudie &#x1F4BB;
 
