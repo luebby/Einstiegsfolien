@@ -1,0 +1,48 @@
+---
+title: "Einführung Mathematik"
+subtitle: "Sechster Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "EM | Karsten Lübke"
+    chalkboard: true
+
+---
+
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#129323; Während ich erkläre.
+
+&#x1F4AA; [https://tweedback.de/e1eb](https://tweedback.de/e1eb)
+
+
+## Stimmung?
+
+Auf der Skala von *Homer Simpson*: Wie geht es Ihnen heute?
+
+![](img/Homer_Simpson2.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@paugr](https://twitter.com/paugr/status/1252233029201719296)
+:::
+
+
+## Matrizenmultiplikation
+
+![](img/Meme_Matrizenmultiplikation.jpg){fig-align="center" width="60%"}
+
+
+## Heutiges Thema &#127979;
+
+Kap. 3.3: Inverse Matrizen
+Kap. 3.4: Innerbetriebliche Leistungsverrechnung
+Kap. 3.5: Das Leontief-Modell

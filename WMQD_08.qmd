@@ -15,7 +15,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/xxxx](https://tweedback.de/xxx)
+&#x1F4AA; [https://tweedback.de/evjr](https://tweedback.de/evjr)
 
 <br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
 
@@ -102,7 +102,7 @@ Quelle: [David Hood](https://twitter.com/Thoughtfulnz/status/1446972794135216131
 
 ## Regression motivieren (II/II)
 
-- Regression funktioniert genau so: Wir haben das Durchschnittsalter attraktiver Frauen je Alterskohorte und wir wollen den Zusammenhang zwischen diesen Variablen analysieren. 
+- Regression funktioniert genau so: Wir haben (fiktive) Daten von Temperatur und Vebrauch und wir wollen den Zusammenhang zwischen diesen Variablen analysieren. 
 - Das gefundene Modell wird aufgrund des Rauschens nicht perfekt sein.
 
 :::{.aside}
