@@ -38,13 +38,22 @@ Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1442743577126264832)
 
 :::
 
-## Was bísher geschah ...
+## Was bisher geschah ...
 
 - Sie können ein lineares Modell aufsetzen und die Ergebnisse interpretieren.
 - Sie wissen, was der y-Achsenabschnitt und was die Steigung bedeuten.
 - Sie wissen, was das Bestimmtheitsmaß ist.
 - Sie kennen die Unsicherheit der Schätzung und können ein Konfidenzintervall interpretieren.
 - Sie können eine Nullhypothese prüfen und den p-Wert interpretieren.
+
+## Ethische Fragen
+
+- Auf Grundlage von $\hat{y}$ können z.B. *Scorings* innerhalb algorithmischer Entscheidungssysteme erfolgen.
+
+- U.a. dadurch formen Daten und ihre Analyse auch unsere Welt.
+
+- Wollen wir das? Wo, wo nicht? Was ist dabei wichtig? 
+
 
 ## Heutiges Thema &#127979;
 
