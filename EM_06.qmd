@@ -43,6 +43,6 @@ Quelle: [@paugr](https://twitter.com/paugr/status/1252233029201719296)
 
 ## Heutiges Thema &#127979;
 
-Kap. 3.3: Inverse Matrizen
-Kap. 3.4: Innerbetriebliche Leistungsverrechnung
-Kap. 3.5: Das Leontief-Modell
+- Kap. 3.3: Inverse Matrizen
+- Kap. 3.4: Innerbetriebliche Leistungsverrechnung
+- Kap. 3.5: Das Leontief-Modell
