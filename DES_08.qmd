@@ -1,0 +1,73 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Achter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/xxx](https://tweedback.de/xxxx)
+
+<br> 
+Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+Denken Sie an die **Anmeldung**!
+
+## Learning Pit
+
+::: center
+**Sie** schaffen es aus der Grube
+:::
+
+![](img/TheLearningPit.png){fig-align="center" width="40%"}
+
+
+
+## Stimmung -- welche Pommes sind Sie heute?
+
+![](img/pommes_frites2_cut.jpg){fig-align="center" width="60%"}
+
+
+::: aside
+Quelle: [Favor Delivery](https://www.facebook.com/askfavor/posts/3588823361147035)
+:::
+
+## UN Ziel 8: Decent work and economic growth
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/56/embed?hasBorder=true&hasOpenSansFont=false" title="82% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+
+## Heutiges Thema &#127979;
+
+- Einstieg in die lineare Regression
+
+- Sie lernen kennen: Achsenabschnitt, Steigung, $R^2$.
+
+<br>
+
+**Tipp**: Öffnen Sie:
+
+- Übersicht: Lineare Regression
+
+- R Befehlsübersicht
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+- `Lego-Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.
+
