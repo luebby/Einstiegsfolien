@@ -1,11 +1,11 @@
 ---
-title: "Wissenschaftliche Methodik"
-subtitle: "Sechster Termin"
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Elfter Termin"
 format: 
   revealjs:
     theme: fom.scss
     logo: fom.jpg
-    footer: "WM | Matthias Gehrke"
+    footer: "QD | Matthias Gehrke"
     chalkboard: true
 ---
 
@@ -15,15 +15,16 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/equg/](https://tweedback.de/equq/)
+&#x1F4AA; [https://tweedback.de/equp/](https://tweedback.de/equp/)
 
-## Stimmung -- welche Pommes sind Sie heute?
 
-![](img/pommes_frites2_cut.jpg){fig-align="center" width="60%"}
+## Wie ist Ihre Stimmung heute?
+
+![](img/christian_lindner.png){fig-align="center" width="50%"}
 
 
 ::: aside
-Quelle: [Favor Delivery](https://www.facebook.com/askfavor/posts/3588823361147035)
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443448084407726084/)
 :::
 
 ## Tipps für den Vorlesungserfolg
@@ -38,19 +39,14 @@ Quelle: [Favor Delivery](https://www.facebook.com/askfavor/posts/358882336114703
 
 - Unterstützen Sie sich gegenseitig.
 
-## UN Ziel 6: Clean water and sanitation
+
+## UN Ziel 11: Sustainable cities and communities
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/6/embed?hasBorder=true&hasOpenSansFont=false" title="89% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+<iframe src="https://upgrader.gapminder.org/q/13/embed?hasBorder=true&hasOpenSansFont=false" title="77% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
 :::
-
-
-## Was beim letzten Mal geschah ...
-
-- Sie wissen, was Korrelation bedeutet.
-- Sie haben ein erstes lineares Regressionmodell erstellt.
-- Sie können die Steigung $\hat\beta_1$ und den $y$-Achsenabschnitt $\hat\beta_0$ interpretieren.
-- Sie wissen, was das Bestimmtheitsmaß $R^2$ ist.
 
 ## Schlagen Sie die &#129302;?
 
@@ -71,10 +67,17 @@ Mission Vorhersage &#128073; [https://bit.ly/RegCont](https://bit.ly/RegCont)
 
 $$Verbrauch = 8.120,60 - 18,44 \cdot Temperatur$$
 
+
+## Was beim letzten Mal geschah ...
+
+- Sie wissen, was eine Null- und eine Alternativhypothese (= Forschungsvermutung) ist.
+- Sie können Hypothesen falsifizieren und wissen, was ein p-Wert ist.
+- Sie können die Modellzusammenfassung (= `summary()`) interpretieren.
+
+
 ## Heutiges Thema &#127979;
 
-- Fortsetzung univariate lineare Regression
-- Inferenz in der Regression
+- Wir arbeiten weiter mit Zufall und Ziehen von Stichproben:
 
 $$\hat{\beta} = \beta + \text{(Verzerrung)} + \text{Rauschen}$$
 
@@ -85,14 +88,16 @@ $$\hat{\beta} = \beta + \text{(Verzerrung)} + \text{Rauschen}$$
 Quelle: [David Hood](https://twitter.com/Thoughtfulnz/status/1446972794135216131)
 :::
 
+## Heutiges Thema &#127979;
+
+- Schwerpunkt heute: Multiple lineare Regression
+
 
 ## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
 
-- Sie kennen den Unterschied zwischen dem Ergebnis in der Stichprobe und der Interpretation des Ergebnisses im Zusammenhang mit der Population.
-- Sie lernen mit Zufall und Ziehen von Stichproben umzugehen.
-- Sie wissen, was ein Konfidenzintervall ist.
-- Sie kennen den Unterschied zwischen Null- und Alternativhypothese.
-- Sie wenden das Falsifikationsprinzip an.
+- Sie können die Koeffizienten zu unterschiedlich skalierten unabhängigen Variablen interpretieren.
+- Sie wenden die lineare Regression mit einer oder mehreren unabhängigen Variablen an.
+- Sie können zwischen verschiedenen Regressionsmodellen auswählen.
 
 ## Motivation Regression (I/II)
 
@@ -113,12 +118,12 @@ Anregung: [Tay (2022)](https://doi.org/10.1080/26939169.2021.2024777)
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch Klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf `QD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
-![](img/RStudio2.png){fig-align="center" width="40%"}
+![](img/RStudio_Project_QD.png){fig-align="center" width="30%"}
 
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-Wir arbeiten weiter mit der Datei `3a_LEGO_Fortsetzung.Rmd` im Ordner `fallstudien`. 
+Öffnen Sie die Fallstudie `Zeit_im_Bad.Rmd`.
 
