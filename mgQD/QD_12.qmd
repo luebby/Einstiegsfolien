@@ -1,0 +1,81 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Zwölfter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zfk9/](https://tweedback.de/zfk9/)
+
+
+## Wie geht es Ihnen heute auf der Jammerlappen-Skala?
+
+![](img/jammerlappen.jpg){fig-align="center" width="50%"}
+
+
+::: aside
+Quelle: [@dnlmnhrdt](https://twitter.com/dnlmnhrdt/status/1328774026014183426)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## UN Ziel 12: Responsible consumption and production
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/58/embed?hasBorder=true&hasOpenSansFont=false" title="70% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie können die Regressionskoeffizienten zu unterschiedlich skalierten unabhängigen Variablen interpretieren.
+- Sie können univariate und multivarite Regressionsmodelle aufstellen.
+- Sie wissen, was eine Wechselwirkung (Interaktion) zwischen einer metrischen und einer kategorialen Variable ist.
+- Sie können zwischen verschiedenen Modellen unterscheiden und geeignete Modelle auswählen.
+
+
+## Heutiges Thema &#127979;
+
+- Schwerpunkt heute: Inferenz
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie arbeiten weiter mit Bootstrap  und vertiefen die Kenntnisse über Punktschätzung, Standardfehler und Intervallschätzung.
+- Sie stellen Null- und Alternativhypothesen auf.
+- Sie simulieren die Verteilung unter der Nullhypothese und ermitteln den p-Wert.
+- Sie lernen die Fehlermöglichkeiten beim statistischen Testen kennen.
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `QD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+![](img/RStudio_Project_QD.png){fig-align="center" width="30%"}
+
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+Öffnen Sie die Fallstudie `5a_Entfernung.Rmd`.
+
