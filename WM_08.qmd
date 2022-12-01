@@ -1,0 +1,102 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Achter Termin"
+format: 
+  revealjs:
+    theme: fom-dls.scss
+    logo: DLS-Logo.png
+    footer: "WM | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Schalten Sie bitte die Kamera an.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/eqcv](https://tweedback.de/eqcv)
+
+
+
+## Guten Morgen
+
+Wie sind Sie heute aufgestanden?
+
+::: {.columns}
+
+:::: {.column width="50%"}
+**A**:
+
+<iframe src="https://giphy.com/embed/l46CBEVQjSJG6mCnC" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+::::: aside
+[via GIPHY](https://giphy.com/gifs/veephbo-hbo-veep-julia-louis-dreyfus-l46CBEVQjSJG6mCnC)
+:::::
+::::
+
+
+
+:::: {.column width="50%"}
+**B**:
+
+<iframe src="https://giphy.com/embed/l46CBvLI7Q7YthRzG" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+::::: aside
+[via GIPHY](https://giphy.com/gifs/comedycentral-amy-schumer-inside-stretch-l46CBvLI7Q7YthRzG)
+:::::
+::::
+:::
+
+## UN Ziel 8: Decent work and economic growth
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/56/embed?hasBorder=true&hasOpenSansFont=false" title="82% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+
+## Was bisher geschah ...
+
+- Sie können ein lineares Modell aufsetzen und die Ergebnisse interpretieren.
+- Sie wissen, was der y-Achsenabschnitt und was die Steigung bedeuten.
+- Sie wissen, was das Bestimmtheitsmaß ist.
+- Sie kennen die Unsicherheit der Schätzung und können ein Konfidenzintervall interpretieren.
+- Sie können eine Nullhypothese prüfen und den p-Wert interpretieren.
+
+## Ethische Fragen
+
+- Auf Grundlage von $\hat{y}$ können z.B. *Scorings* innerhalb algorithmischer Entscheidungssysteme erfolgen.
+
+- U.a. dadurch formen Daten und ihre Analyse auch unsere Welt.
+
+- Wollen wir das? Wo, wo nicht? Was ist dabei wichtig? 
+
+
+## Heutiges Thema &#127979;
+
+- Regression mit kategorialen unabhängigen Variablen
+- Multiple lineare Regression
+
+![](img/LM.jpeg){fig-align="center" width="50%"}
+
+::: aside
+Quelle: [\@molivarego](https://twitter.com/molivarego/status/1405660338448605185/photo/1)
+:::
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie können die Modellzusammenfassung interpretieren.
+- Sie können die Koeffizienten zu unterschiedlich skalierten unabhängigen Variablen interpretieren.
+- Sie wenden die lineare Regression mit einer oder mehreren unabhängigen Variablen an.
+- Sie können zwischen verschiedenen Regressionsmodellen auswählen.
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WM_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+- `Lego_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.
+
