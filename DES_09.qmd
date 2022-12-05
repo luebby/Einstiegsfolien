@@ -1,0 +1,107 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Neunter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zf8f](https://tweedback.de/zf8f)
+
+<br> 
+Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+Denken Sie an die **Anmeldung**!
+
+## Wie ist Ihre Stimmung heute?
+
+![](img/annalena_baerbock.jpg){fig-align="center" width="50%"}
+
+
+::: aside
+Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1442743577126264832)
+:::
+
+## UN Ziel 9: Industry, innovation and infrastructure
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/64/embed?hasBorder=true&hasOpenSansFont=false" title="66% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+:::
+
+
+## Schlagen Sie die &#129302;?
+
+Mission Vorhersage &#128073; [https://bit.ly/RegCont](https://bit.ly/RegCont)
+
+
+![](img/linearregression.png){fig-align="center" width="20%"}
+
+
+
+## You can't beat &#129302;
+
+<br>
+
+::: {.center}
+&#129351; 4698,928 &#129351;
+:::
+
+$$Verbrauch = 8.120,60 - 18,44 \cdot Temperatur$$
+
+
+## Was beim letzten Mal geschah ...
+
+- Sie können ein lineares Modell aufsetzen und die Ergebnisse interpretieren.
+
+- Sie wissen, was der y-Achsenabschnitt und was die Steigung bedeuten.
+
+- Sie wissen, was das Bestimmtheitsmaß ist.
+
+
+## Heutiges Thema &#127979;
+
+- Sie lernen mit Zufall und Ziehen von Stichproben umzugehen.
+
+$$\hat{\beta} = \beta + \text{(Verzerrung)} + \text{Rauschen}$$
+
+![](img/modelmeme.jpeg){fig-align="center" width="40%"}
+
+
+::: {.aside}
+Quelle: [David Hood](https://twitter.com/Thoughtfulnz/status/1446972794135216131)
+:::
+
+
+## Regression motivieren (I/II)
+
+- Stellen Sie sich eine Regressionsanalyse wie eine Radiostation vor, die ein Programm sendet.
+- Ich empfange dieses *Signal* nur weit entfernt, mit *Rauschen*. Was ich also empfange ist das *Signal* plus *Rauschen*.
+- Es gibt diverse Techniken, um aus dem Signal was ich höre, möglichst das gesendete Signal zu extrahieren, das Rauschen zu reduzieren.
+
+
+## Regression motivieren (II/II)
+
+- Regression funktioniert genau so: Wir haben (fiktive) Daten von Temperatur und Vebrauch und wir wollen den Zusammenhang zwischen diesen Variablen analysieren. 
+- Das gefundene Modell wird aufgrund des Rauschens nicht perfekt sein.
+
+:::{.aside}
+Anregung: [Tay (2022)](https://doi.org/10.1080/26939169.2021.2024777)
+:::
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- Posit Cloud: In **Ihr** Projekt einloggen.  
+
+- `Lego_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.

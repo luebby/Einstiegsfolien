@@ -1,0 +1,135 @@
+---
+title: "Einführung Mathematik"
+subtitle: "Siebter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "EM | Karsten Lübke"
+    chalkboard: true
+
+---
+
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#129323; Während ich erkläre.
+
+&#x1F4AA; [https://tweedback.de/zf8p](https://tweedback.de/zf8p)
+
+
+## Stimmung -- welche Pommes sind Sie heute?
+
+![](img/pommes_frites2_cut.jpg){fig-align="center" width="60%"}
+
+
+::: aside
+Quelle: [Favor Delivery](https://www.facebook.com/askfavor/posts/3588823361147035)
+:::
+
+## Heutiges Thema &#127979;
+
+- Kap. 4: Funktionen einer Variable
+- Kap. 5.1: Differenzenquotient und Ableitung
+
+## Funktionen und deren Optimierung
+
+![](img/Meme_Optimierung.jpg){fig-align="center" width="60%"}
+
+## Ableitung (I/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/164c94f2-5f54-4b98-b852-793ac9857908_rw_1920.jpg?h=1706e9830b5b58bd187191f27b83599c){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Ableitung (I/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/164c94f2-5f54-4b98-b852-793ac9857908_rw_1920.jpg?h=1706e9830b5b58bd187191f27b83599c){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Ableitung (II/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/48c1ba9b-f718-4651-895c-8b35947ea4e0_rw_1920.jpg?h=07c90b5f0146bd58c89b8308a22afd97){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+
+## Ableitung (III/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/3a787955-ab9c-41dc-b610-51b03a09ceed_rw_1920.jpg?h=e0290bac3dc439c02d006e6369e7a96f){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Ableitung (IV/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/0d65bb28-b7d9-42c3-b081-0b68ca30f48b_rw_1920.jpg?h=c848d76d650ad7367200288cc0b7bbc5){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+
+## Ableitung (V/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/9d28cc98-e0f7-44a1-b7f0-1858aa9a729d_rw_1920.jpg?h=77cb26a90a744f6c4a58882a2e6dfed3){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Ableitung (VI/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/b4738a90-3aac-44e2-8d9b-e5ce671319bb_rw_1920.jpg?h=e3c1ee8223e3797504869f5d61e93eea){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Ableitung (VII/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/8e2ef0c2-d697-4b2b-affe-a6b47073a078_rw_1920.jpg?h=cd65129e8e4aa2e578f84e147cac4cdb){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Ableitung (VIII/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/bd6b222b-749b-4ba7-97d0-89d5e753f4d9_rw_1920.jpg?h=af63b3b5d978dc7f229af098bbddadd6){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Ableitung (IX/IX)
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/48426da0-2d1b-4ec0-ad60-805bada6910b_rw_1920.jpg?h=da76cc5386df2ca9367e30ec87e1473f){fig-align="center" width="60%"}
+
+::: {.aside}
+
+[Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
