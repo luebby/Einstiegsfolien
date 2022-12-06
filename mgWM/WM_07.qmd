@@ -15,16 +15,14 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/eqnm/](https://tweedback.de/eqnm/)
+&#x1F4AA; [https://tweedback.de/zfh9/](https://tweedback.de/zfh9/)
 
-## Wie ist Ihre (Weihnachts-)Stimmung heute?
+## Wie ist heute Ihre Stimmung auf der Mickey-Mouse-Skala?
 
-![](img/ChristmasTrees.jpg){fig-align="center" width="60%"}
-
+![](img/MickeyMouse.jpg){fig-align="center" width="50%"}
 
 ::: aside
-Quelle:  
-[Depositphotos](https://de.depositphotos.com/14571167/stock-illustration-christmas-tree.html)
+Quelle: [@pinterest](https://www.pinterest.de/pin/2744449766104840)
 :::
 
 ## Tipps für den Vorlesungserfolg
@@ -54,7 +52,31 @@ Quelle:
 - Sie wissen, was eine Permutationsverteilung ist und wie man diese simuliert.
 - Sie können den p-Wert ermitteln und interpretieren.
 
-## Schlagen Sie die &#129302;?
+## Ergänzungen zum letzten Mal (1/2)
+
+- Hypothesen können einseitig (gerichtet) oder zweiseitig (ungerichtet) sein.
+- Bisher haben wir mit **ungerichteten** Hypothesen gearbeitet, beispielsweise  
+  $H_0:\beta_1 = 0 \qquad H_A:\beta_1\neq 0$
+- **Gerichtete** Hypothesen, beispielsweise: Sie sind ein Glückspilz (das ist die $H_A$) und gewinnen häufiger im Lotto als die Wahrscheinlichkeit $\pi_0\approx 0.0186$ mindestens drei Richtige zu haben   
+  $H_0:\pi\leq\pi_0 \qquad H_A:\pi > \pi_0$
+- oder doch der Pechvogel  
+  $H_0:\pi\geq\pi_0 \qquad H_A:\pi < \pi_0$
+
+## Ergänzungen zum letzten Mal (2/2)
+
+Beim statistischen Testen können wir Fehler machen:
+
+- $\alpha$-Fehler oder Fehler 1. Art:  
+  Wir verwerfen die $H_0$, obwohl sie zutrifft.
+  
+  - Dieser Fehler wird durch das Signifikanzniveau $\alpha$ begrenzt.
+  
+- $\beta$-Fehler oder Fehler 2. Art:  
+  Wir verwerfen die $H_0$ nicht, obwohl sie nicht zutrifft.
+  
+  - Dieser Fehler kann nicht im vorhinein begrenzt werden. Es kann aber vorab eine sogenannte *Poweranalyse* (Power = *Trennschärfe* eines Tests) durchgeführt werden.
+
+## Zurück zur Regression: Schlagen Sie die &#129302;?
 
 Mission Vorhersage &#128073; [https://bit.ly/RegCont](https://bit.ly/RegCont)
 
@@ -125,5 +147,5 @@ Anregung: [Tay (2022)](https://doi.org/10.1080/26939169.2021.2024777)
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
-Wir schauen zunächste noch eimal in die Datei `3a_LEGO_Fortsetzung.Rmd` im Ordner `fallstudien` hinein. 
+Öffnen Sie die Datei `3b_Zeit-im-Bad.Rmd` im Ordner `fallstudien` hinein. 
 

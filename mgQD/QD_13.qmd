@@ -1,0 +1,145 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Dreizehnter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zfcm/](https://tweedback.de/zfcm/)
+
+
+## Wie ist heute Ihre Stimmung auf der Mickey-Mouse-Skala?
+
+![](img/MickeyMouse.jpg){fig-align="center" width="50%"}
+
+
+::: aside
+Quelle: [@pinterest](https://www.pinterest.de/pin/2744449766104840)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## UN Ziel 13: Climate Action
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/85/embed?hasBorder=true&hasOpenSansFont=false" title="71% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie haben Ihre Kenntnisse bezüglich Inferenzstatistik vertieft.
+- Dabei haben Sie die Begriffe Punktschätzung, Standardfehler und Konfidenzintervall wiederholt.
+- Sie haben eine andere Simulationstechnik für die Nullverteilung kennengelernt.
+- Damit haben Sie wiederum Hypothesen (Null- und Alternativhypothese) aufgestellt und die Begriffe p-Wert und Signifikanz wiederhholt.
+
+## Ergänzungen zum letzten Mal (1/2)
+
+- Hypothesen können einseitig (gerichtet) oder zweiseitig (ungerichtet) sein.
+- Bisher haben wir mit **ungerichteten** Hypothesen gearbeitet, beispielsweise  
+  $H_0:\beta_1 = 0 \qquad H_A:\beta_1\neq 0$
+- **Gerichtete** Hypothesen, beispielsweise: Sie sind ein Glückspilz (das ist die $H_A$)  
+  $H_0:\pi\leq\pi_0 \qquad H_A:\pi > \pi_0$
+- oder doch der Pechvogel  
+  $H_0:\pi\geq\pi_0 \qquad H_A:\pi < \pi_0$
+
+## Ergänzungen zum letzten Mal (2/2)
+
+Beim statistischen Testen können wir Fehler machen:
+
+- $\alpha$-Fehler oder Fehler 1. Art:  
+  Wir verwerfen die $H_0$, obwohl sie zutrifft.
+  
+  - Dieser Fehler wird durch das Signifikanzniveau $\alpha$ begrenzt.
+  
+- $\beta$-Fehler oder Fehler 2. Art:  
+  Wir verwerfen die $H_0$ nicht, obwohl sie nicht zutrifft.
+  
+  - Dieser Fehler kann nicht im vorhinein begrenzt werden. Es kann aber vorab eine sogenannte *Poweranalyse* (Power = *Trennschärfe* eines Tests) durchgeführt werden.
+
+
+## Aus der Forschung
+
+```{r, echo=FALSE, fig.align="center", out.width="70%"}
+knitr::include_graphics("img/CI.png")
+```
+
+
+::: {.aside}
+[https://doi.org/10.1080/10691898.2020.1752859](https://doi.org/10.1080/10691898.2020.1752859)
+
+&#129351; ASA's most read collection 2020 (JSE).
+:::
+
+---
+
+## Heutiges Thema &#127979;
+
+
+- Kausale Inferenz
+
+```{r, echo=FALSE, fig.align="center", out.width="60%"}
+knitr::include_graphics("img/RedBlue-Causal.jpg")
+```
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
+
+- Was ein potenzielles Ergebnis (Potential Outcome) ist; was ein Counterfactual ist;
+wie kausale Effekte definiert werden können und warum die Bestimmung von kausalen Effekten so herausfordernd ist.
+
+- Die Grundlagen von kausalen Graphen: Was ein Pfeil aussagt; was unter einem Kausalen Modell verstanden werden kann; den Unterschied zwischen Beobachten und Handeln im Kontext kausaler Inferenz.
+
+- Zwischen Beschreibung, Vorhersage und Kausaler Inferenz zu unterscheiden; warum diese Unterscheidung wichtig ist und was die Kausale Leiter ist.
+
+
+## Kausale Leiter
+
+- **Assoziation**: $Pr(y|x)$ &ndash; Beobachtung: *Was ist*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ beobachte? 
+
+- **Intervention**: $Pr(y|do(x))$ &ndash; Tun: *Was wäre*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ setze, d.h. manipuliere?
+
+- **Counterfactuals**: $Pr(y_x|x',y')$ &ndash; Vorstellung: *Was wäre gewesen*? Wir haben $X=x'$ und als Folge $Y=y'$ beobachtet. Wie wahrscheinlich ist dann $Y=y$, wenn ich $X=x$ gesetzt hätte?
+
+
+## Praxistransfer
+
+Geben Sie bitte ein Beispiel für die Ebene Assoziation (oder Intervention oder Counterfactual) auf der kausalen Leiter nach Pearl in Ihrer beruflichen Praxis (bitte angeben). Definieren Sie dabei $X$, $Y$.
+
+
+## Heutiges Vorgehen
+
+- Das erste Tutorial führen wir gemeinsam durch: [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/)
+
+- Die Tutorien [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/) und [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/) jeweils in Gruppenarbeiten.
+
+- Anschließend [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/) wieder gemeinsam.
+
+##  Resourcen
+
+- Alle Tutorien: [https://github.com/luebby/WWWEKI](https://github.com/luebby/WWWEKI)
+
+- Begleitende Videos: [https://wwweki.gitlab.io/interviews/](https://wwweki.gitlab.io/interviews/)
+
+- KI-Campus Kurs: [https://ki-campus.org/courses/wwweki-2022](https://ki-campus.org/courses/wwweki-2022)
