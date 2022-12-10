@@ -1,0 +1,109 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Zehnter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zkpn](https://tweedback.de/zkpn)
+
+<br> 
+Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung.
+
+## Wie ist Ihre Stimmung heute?
+
+![](img/Skala_kuenstliche_Intelligenz.png){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@mhaseneyer](https://twitter.com/mhaseneyer/)
+:::
+
+## Hausarbeit
+
+::: {.center}
+<iframe src="https://giphy.com/embed/13sozYO4hmSMUw" width="360" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+Anmeldung nicht vergessen!
+
+:::
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/please-hurry-13sozYO4hmSMUw)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## UN Ziel 10: Reduced inequalities
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/71/embed?hasBorder=true&hasOpenSansFont=false" title="81% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+
+## Was bisher geschah ...
+
+- Sie können ein lineares Modell aufsetzen und die Ergebnisse interpretieren.
+- Sie wissen, was der y-Achsenabschnitt und was die Steigung bedeuten.
+- Sie wissen, was das Bestimmtheitsmaß ist.
+- Sie kennen die Unsicherheit der Schätzung und können ein Konfidenzintervall interpretieren.
+- Sie können eine Nullhypothese prüfen und den p-Wert interpretieren.
+
+
+## Heutiges Thema &#127979;
+
+- Regression mit kategorialen unabhängigen Variablen
+- Multiple lineare Regression
+
+![](img/LM.jpeg){fig-align="center" width="50%"}
+
+::: aside
+Quelle: [\@molivarego](https://twitter.com/molivarego/status/1405660338448605185/photo/1)
+:::
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie können die Modellzusammenfassung interpretieren.
+- Sie können die Koeffizienten zu unterschiedlich skalierten unabhängigen Variablen interpretieren.
+- Sie wenden die lineare Regression mit einer oder mehreren unabhängigen Variablen an.
+- Sie können zwischen verschiedenen Regressionsmodellen auswählen.
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- Posit Cloud: In **Ihr** Projekt einloggen.  
+
+- `Lego_Fortsetzung.Rmd` im Ordner `fallstudien` öffnen.
+
+## Ethische Fragen
+
+- Auf Grundlage von $\hat{y}$ können z.B. *Scorings* innerhalb algorithmischer Entscheidungssysteme erfolgen.
+
+- U.a. dadurch formen Daten und ihre Analyse auch unsere Welt.
+
+- Wollen wir das? Wo, wo nicht? Was ist dabei wichtig? 

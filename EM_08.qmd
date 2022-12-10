@@ -1,6 +1,6 @@
 ---
 title: "Einführung Mathematik"
-subtitle: "Siebter Termin"
+subtitle: "Achter Termin"
 format: 
   revealjs:
     theme: fom.scss
@@ -21,48 +21,30 @@ format:
 
 &#129323; Während ich erkläre.
 
-&#x1F4AA; [https://tweedback.de/zf8p](https://tweedback.de/zf8p)
+&#x1F4AA; [https://tweedback.de/zkpj](https://tweedback.de/zkpj)
 
 
-## Nikolaus
+## Mahlzeit
 
-Welcher Nikolaus sind Sie heute?
-
-::: {.columns}
-
-:::: {.column width="50%"}
-**A**:
+![](img/pommes_frites2_cut.jpg){fig-align="center" width="60%"}
 
 
-<iframe src="https://giphy.com/embed/XeuwZBQuWBlF5sROsD" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
-::::: aside
-[via GIPHY](https://giphy.com/gifs/comedian-holly-logan-hollylogan-XeuwZBQuWBlF5sROsD)
-:::::
-::::
-
-
-
-:::: {.column width="50%"}
-**B**:
-
-<iframe src="https://giphy.com/embed/f7MSNYTqfAfiZeY2UD" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
-::::: aside
-[via GIPHY](https://giphy.com/gifs/comedian-holly-logan-hollylogan-f7MSNYTqfAfiZeY2UD)
-:::::
-::::
+::: aside
+Quelle: [Favor Delivery](https://www.facebook.com/askfavor/posts/3588823361147035)
 :::
+
 
 
 ## Heutiges Thema &#127979;
 
-- Kap. 4: Funktionen einer Variable
 - Kap. 5.1: Differenzenquotient und Ableitung
+- Kap. 5.2: Ableitungsregeln
+- Kap. 5.3: Elastizität
 
-## Funktionen und deren Optimierung
 
-![](img/Meme_Optimierung.jpg){fig-align="center" width="60%"}
+## Funktionen
+
+![](img/Meme_Unkehrfunktion.jpg){fig-align="center" width="40%"}
 
 ## Ableitung (I/IX)
 
@@ -154,4 +136,23 @@ Welcher Nikolaus sind Sie heute?
 ::: {.aside}
 
 [Artwork by @allison_horst](https://twitter.com/allison_horst)
+:::
+
+## Innere und Äußere Funktion (I/II)
+
+![](img/innereauessere1.png){fig-align="center" width="50%"}
+
+
+::: {.aside}
+Quelle: [@treverreeh](https://twitter.com/treverreeh/status/1459281740984471552?s=20)
+:::
+
+
+## Innere und Äußere Funktion (I/II)
+
+![](img/innereauessere2.png){fig-align="center" width="50%"}
+
+
+::: {.aside}
+Quelle: [@treverreeh](https://twitter.com/treverreeh/status/1459281740984471552?s=20)
 :::
