@@ -1,0 +1,288 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Vierzehnter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zksk](https://tweedback.de/zksk)
+
+Vergessen Sie nicht, sich zu den Prüfungsleistungen anzumelden!
+
+Die **Studienbriefe** strukturieren Ihre Vor- und Nacharbeit.
+
+## Wie ist Ihre (Weihnachts-)Stimmung heute?
+
+![](img/ChristmasTrees.jpg){fig-align="center" width="60%"}
+
+
+::: aside
+Quelle:  
+[Depositphotos](https://de.depositphotos.com/14571167/stock-illustration-christmas-tree.html)
+:::
+
+## Hausarbeit
+
+::: {.center}
+<iframe src="https://giphy.com/embed/13sozYO4hmSMUw" width="360" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+Anmeldung nicht vergessen!
+
+:::
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/please-hurry-13sozYO4hmSMUw)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## UN Ziel 14: Life below water
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/91/embed?hasBorder=true&hasOpenSansFont=false" title="81% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie wissen, was ein Potential Outcome und was ein Counterfactual ist.
+
+- Sie können kausale Effekte definieren.
+
+- Die kennen die Grundlagen von kausalen Graphen: Was ein Pfeil aussagt; was Chain (Kette), Fork (Gabel) und Inverted Fork (Umgedrehte Gabel) sind.
+
+- Sie wissen, wann Sie adjustieren müssen (z. B. eine Variable in das Modell aufnehmen) und wann nicht.
+
+- Sie können zwischen Beschreibung, Vorhersage und Kausaler Inferenz unterscheiden.
+
+## ... und was noch  ...
+
+- Sie kennen die kausale Leiter
+
+  - **Assoziation**: $Pr(y|x)$ &ndash; Beobachtung: *Was ist*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ beobachte? 
+
+  - **Intervention**: $Pr(y|do(x))$ &ndash; Tun: *Was wäre*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ setze, d.h. manipuliere?
+
+  - **Counterfactuals**: $Pr(y_x|x',y')$ &ndash; Vorstellung: *Was wäre gewesen*? Wir haben $X=x'$ und als Folge $Y=y'$ beobachtet. Wie wahrscheinlich ist dann $Y=y$, wenn ich $X=x$ gesetzt hätte?
+
+
+
+
+
+## Heutiges Thema &#127979;
+
+
+- Fallstudie Vorhersagemodellierung
+
+::: {.center}
+<iframe src="https://giphy.com/embed/PMVL0gikEmYBygyzL0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: {.aside}
+<p><a href="https://giphy.com/gifs/mafs-mafsau-mafsaus-mafsaustralia-PMVL0gikEmYBygyzL0">via GIPHY</a></p>
+:::
+
+
+## Modellierung: Beispiel `tips`
+
+```{r, include=FALSE}
+library(mosaic)
+library(kableExtra)
+data(tips, package = "reshape2")
+tips <- as_tibble(tips)
+set.seed(1896)
+train <- tips %>%
+  sample_n(160) %>%
+  select(time, size, total_bill)
+
+test <- tips %>%
+  sample_n(80) %>%
+  select(time, size, total_bill)
+
+anwendung <- test %>%
+  select(-total_bill)
+```
+
+
+Modelliere die [abbhängige Variable]{.violet} `total_bill` ( $\color{violet} y$ )  auf Basis der [unabhängigen Variablen]{.olive} `time`  ( $\color{olive}{x_1}$ ) und `size` ( $\color{olive}{x_2}$ ):
+
+$${\color{violet}y}=f(\color{olive}{x_1,x_2})+\epsilon$$
+
+
+## Trainingsdaten
+
+Der Trainingsdatensatz (`train`) enthält alle Variablen, d. h. $\color{olive}{x_1, x_2}, {\color{violet} y}$:
+
+```{r echo=FALSE}
+train %>%
+  head(4) %>%
+  kable() %>%
+  kable_styling("striped") %>%
+  add_header_above(c("Unabhängige Variablen" = 2, "Abhängige Variable" = 1)) %>%
+  column_spec(1:2, color = "white", background = "#808000") %>%
+  column_spec(3, color = "white", background = "#DA70D6")
+```
+
+## Modellierung
+
+Schätze $f(\cdot)$ z. B. über lineare Regression auf den **Trainingsdaten**:
+
+```{r}
+erg_lm <- lm(total_bill ~ time + size, data = train)
+erg_lm
+```
+
+$$\color{purple}{\widehat{\text{total_bill}}_i}=`r round(coef(erg_lm)[1],2)` `r round(coef(erg_lm)[2],2)`\cdot\begin{cases}1, \,\color{olive}{\text{i ist Lunch}} \\ 0, \,\color{olive}{\text{i ist nicht Lunch}} \end{cases} + `r round(coef(erg_lm)[3],2)` \cdot \color{olive}{\text{size}_i}$$
+
+## Anwendungsdaten
+
+Die **Anwendungsdaten** (`anwendung`) enthalten nur die unabhänigen Variablen $\color{olive}{x_1, x_2}$, nicht die abhängige Variable $\color{violet} y$:
+
+```{r echo=FALSE}
+anwendung %>%
+  head(4) %>%
+  kable() %>%  
+  add_header_above(c("Unabhängige Variablen" = 2)) %>%
+  column_spec(1:2, color = "white", background = "#808000")
+```
+
+
+## Vorhersage (I/III)
+
+Zuvor gelerntes Modell (`erg_lm`) auf Basis der Trainingsdaten zur Prognose der [Zielvariable]{.violet} auf den Anwendungsdaten verwenden:
+
+```{r}
+lm_predict <- predict(erg_lm, newdata = anwendung)
+```
+
+
+## Vorhersage (II/III)
+
+Für die Beobachtungen des Anwendungsdatensatzes gibt es jetzt [geschätze Werte]{.purple} für die Rechnungshöhe, $\color{purple}{\widehat{\text{total_bill}}}$. Z. B. für $i=1$:
+
+```{r echo=FALSE}
+anwendung %>%
+  head(1) %>%
+  kable() %>%  
+  add_header_above(c("Unabhängige Variablen" = 2)) %>%
+  column_spec(1:2, color = "white", background = "#808000")
+```
+
+
+## Vorhersage (III/III)
+
+$$\color{purple}{\widehat{\text{total_bill}}_1}=`r round(coef(erg_lm)[1],2)` `r round(coef(erg_lm)[2],2)`\cdot\color{olive}{1} + `r round(coef(erg_lm)[3],2)` \cdot \color{olive}{6}=\color{purple}{`r round(lm_predict[1],2)`}$$
+
+```{r echo=FALSE}
+test %>%
+  mutate(hat_total_bill = round(lm_predict,2)) %>%
+  head(1) %>%
+  select(hat_total_bill) %>%
+  kable() %>%
+  add_header_above(c("Abhängige Variable" = 1)) %>%
+  column_spec(1, color = "white", background = "#7A378B")
+```
+
+
+## Evaluierung (I/II)
+
+Sind die [wahren]{.violet} Werte der Zielvariable bekannt, kann die [Vorhersage]{.purple} evaluiert werden:
+
+```{r echo=FALSE}
+test %>%
+  mutate(hat_total_bill = round(lm_predict,2)) %>%
+  head(4) %>%
+  kable() %>%
+  add_header_above(c("Unabhängige Variablen" = 2, "Abhängige Variable" = 2)) %>%
+  column_spec(1:2, color = "white", background = "#808000") %>%
+  column_spec(3, color = "white", background = "#DA70D6") %>%
+  column_spec(4, color = "white", background = "#7A378B")
+```
+
+
+## Evaluierung (II/II)
+
+Z. B.:
+
+$$MAE = \frac{1}{n_{test}}\sum_{i=1}^{n_{test}}{|\color{violet}{y_i-\color{purple}{\hat{y}_i}}|}$$
+
+
+## Tipps (I/II)
+
+- Je nachdem, welche Variablen zur Modellierung verwendet werden, ergeben sich i. d. R. verschiedene Prognosen: `lm(y ~ 1); lm(y ~ x1); lm(y ~ x1 + x2); lm (y ~ x1 * x2)`
+
+- Werden im Trainingsdatensatz Ausreißer eliminiert, ändert sich das geschätzte Modell und damit die Prognose.
+
+- Werden Variablen transformiert (z. B. `mutate(x1l = log(x1))`), ändert sich das geschätzte Modell und damit die Prognose.
+
+## Tipps (II/II)
+
+- Werden unterschiedliche Modellierungsmethoden (`lm(), rpart()`, ...) verwendet, ändert sich die Prognose.
+
+- Vermeiden Sie Über-Anpassung!
+
+
+::: {.center}
+**Beachten Sie die Hinweise zur Hausarbeit. Nutzen Sie die angegebene Literatur!**
+:::
+
+
+## Transparenz
+
+Wir sind es dem datenbasierten Entscheiden schuldig!
+
+<center>
+<img src="https://github.com/allisonhorst/stats-illustrations/raw/main/rstats-artwork/rmarkdown_wizards.png" alt="eRfolg" width="450"/>
+</center>
+
+::: {.aside}
+Quelle: [@allisonhorst](https://github.com/allisonhorst/stats-illustrations)
+:::
+
+## Overfitting
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pZTLFu79UbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+::: {.aside}
+Quelle: [The Raf: Summary Song #9 - Overfitting (Stats Parody - Charlie Puth Attention)](https://youtu.be/pZTLFu79UbY)
+:::
+
+
+## Was ist zu tun?
+
+- Öffnen Sie das RStudio-Projekt für die Hausarbeit (Cloud, lokal), Link bzw. Zip siehe Moodle
+
+- Vorlagedatei: `Template-Vorhersagemodellierung.Rmd`
+
+- Anpassen:
+  - Zeile 3: Namen der Autor:innen
+  - Zeilen 32, 33: Namen der einzulesenden Datendatei
+  - Zeilen 44, 64: Namen der Variablen
+  - Zeile 80: Name
+  
+- `knit`
