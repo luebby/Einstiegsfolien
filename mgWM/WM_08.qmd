@@ -1,0 +1,118 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Achter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WM | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zksb/](https://tweedback.de/zksb/)
+
+## Wie geht es Ihnen heute auf der Jammerlappen-Skala?
+
+![](img/jammerlappen.jpg){fig-align="center" width="50%"}
+
+
+::: aside
+Quelle: [@dnlmnhrdt](https://twitter.com/dnlmnhrdt/status/1328774026014183426)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 8: Decent work and economic growth
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/56/embed?hasBorder=true&hasOpenSansFont=false" title="82% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Was beim letzten Mal geschah ...
+
+- Sie können die Regressionskoeffizienten zu unterschiedlich skalierten unabhängigen Variablen interpretieren.
+- Sie können univariate und multivarite Regressionsmodelle aufstellen.
+- Sie wissen, was eine Wechselwirkung (Interaktion) zwischen einer metrischen und einer kategorialen Variable ist.
+- Sie können zwischen verschiedenen Modellen unterscheiden und geeignete Modelle auswählen.
+
+
+## Aus der Forschung
+
+```{r, echo=FALSE, fig.align="center", out.width="70%"}
+knitr::include_graphics("img/CI.png")
+```
+
+
+::: {.aside}
+[https://doi.org/10.1080/10691898.2020.1752859](https://doi.org/10.1080/10691898.2020.1752859)
+
+&#129351; ASA's most read collection 2020 (JSE).
+:::
+
+---
+
+## Heutiges Thema &#127979;
+
+
+- Kausale Inferenz
+
+```{r, echo=FALSE, fig.align="center", out.width="60%"}
+knitr::include_graphics("img/RedBlue-Causal.jpg")
+```
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
+
+- Was ein potenzielles Ergebnis (Potential Outcome) ist; was ein Counterfactual ist;
+wie kausale Effekte definiert werden können und warum die Bestimmung von kausalen Effekten so herausfordernd ist.
+
+- Die Grundlagen von kausalen Graphen: Was ein Pfeil aussagt; was unter einem Kausalen Modell verstanden werden kann; den Unterschied zwischen Beobachten und Handeln im Kontext kausaler Inferenz.
+
+- Zwischen Beschreibung, Vorhersage und Kausaler Inferenz zu unterscheiden; warum diese Unterscheidung wichtig ist und was die Kausale Leiter ist.
+
+
+## Kausale Leiter
+
+- **Assoziation**: $Pr(y|x)$ &ndash; Beobachtung: *Was ist*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ beobachte? 
+
+- **Intervention**: $Pr(y|do(x))$ &ndash; Tun: *Was wäre*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ setze, d.h. manipuliere?
+
+- **Counterfactuals**: $Pr(y_x|x',y')$ &ndash; Vorstellung: *Was wäre gewesen*? Wir haben $X=x'$ und als Folge $Y=y'$ beobachtet. Wie wahrscheinlich ist dann $Y=y$, wenn ich $X=x$ gesetzt hätte?
+
+
+## Praxistransfer
+
+Geben Sie bitte ein Beispiel für die Ebene Assoziation (oder Intervention oder Counterfactual) auf der kausalen Leiter nach Pearl in Ihrer beruflichen Praxis (bitte angeben). Definieren Sie dabei $X$, $Y$.
+
+
+## Heutiges Vorgehen
+
+- Das erste Tutorial führen wir gemeinsam durch: [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/)
+
+- Die Tutorien [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/) und [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/) jeweils in Gruppenarbeiten.
+
+- Anschließend [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/) wieder gemeinsam.
+
+##  Resourcen
+
+- Alle Tutorien: [https://github.com/luebby/WWWEKI](https://github.com/luebby/WWWEKI)
+
+- Begleitende Videos: [https://wwweki.gitlab.io/interviews/](https://wwweki.gitlab.io/interviews/)
+
+- KI-Campus Kurs: [https://ki-campus.org/courses/wwweki-2022](https://ki-campus.org/courses/wwweki-2022)
