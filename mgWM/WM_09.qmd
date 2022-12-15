@@ -1,0 +1,202 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Neunter Termin -- Wiederholung"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WM | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zkmk/](https://tweedback.de/zkmk/)
+
+
+
+## Wie ist Ihre (Weihnachts-)Stimmung heute?
+
+![](img/ChristmasTrees.jpg){fig-align="center" width="60%"}
+
+
+::: aside
+Quelle:  
+[Depositphotos](https://de.depositphotos.com/14571167/stock-illustration-christmas-tree.html)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+## UN Ziel 9: Industry, innovation and infrastructure
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/64/embed?hasBorder=true&hasOpenSansFont=false" title="66% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+:::
+## Was beim letzten Mal geschah ...
+
+- Sie wissen, was ein Potential Outcome und was ein Counterfactual ist.
+
+- Sie können kausale Effekte definieren.
+
+- Sie können zwischen Beschreibung, Vorhersage und Kausaler Inferenz unterscheiden.
+
+## ... und ...
+
+- Sie kennen die Grundlagen von kausalen Graphen:
+  - Was ein Pfeil aussagt.
+  - Was Chain (Kette, $X\rightarrow C\rightarrow Y$), Fork (Gabel, $X\leftarrow C\rightarrow Y$) und Inverted Fork (Umgedrehte Gabel, $X\rightarrow C\leftarrow Y$) sind.
+  - Und was ein Mediator, ein Confounder und ein Collider sind.
+
+- Sie wissen, wann Sie adjustieren müssen (z. B. eine Variable in das Modell aufnehmen) und wann nicht.
+
+
+## ... und was noch  ...
+
+
+- Sie kennen die kausale Leiter:
+
+  - **Assoziation**: $Pr(y|x)$ &ndash; Beobachtung: *Was ist*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ beobachte? 
+
+  - **Intervention**: $Pr(y|do(x))$ &ndash; Tun: *Was wäre*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ setze, d.h. manipuliere?
+
+  - **Counterfactuals**: $Pr(y_x|x',y')$ &ndash; Vorstellung: *Was wäre gewesen*? Wir haben $X=x'$ und als Folge $Y=y'$ beobachtet. Wie wahrscheinlich ist dann $Y=y$, wenn ich $X=x$ gesetzt hätte?
+
+
+## Heutiges Thema &#127979;
+
+- Wiederholung
+
+::: {.center}
+<iframe src="https://giphy.com/embed/1iTH1WIUjM0VATSw" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+
+Übung macht die Meister:in!
+:::
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/rockymovie-movie-rocky-sylvester-stallone-1iTH1WIUjM0VATSw)
+:::
+
+## Wiederholung: Inferenz
+
+- Der uns interessierende Wert in der **(Ziel-)Population** wird [(wahrer) Wert des Parameters]{.blue} genannt: $\color{blue}{\beta, \mu, \pi, \ldots}$
+
+- Der auf Basis einer **Stichprobe** berechnete Wert wird [Schätzwert]{.green} genannt. $\color{green}{\hat{\beta}, \hat{\mu}=\bar{x}, \hat{\pi}=p,\ldots}$
+
+
+$$\color{green}{Schätzwert} = \color{blue}{Wert\,Parameter} + Verzerrung + Rauschen$$
+
+::: {.aside}
+[Bueno de Mesquita und Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data): Estimate = Estimand + Bias + Noise
+:::
+
+## Punktschätzung -- Unverzerrt
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_Unsicherheit.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Estimate.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Punktschätzung -- Verzerrt
+
+::: {.columns}
+
+:::: {.column width="50%"}
+<br>
+![](img/Meme_Bias.jpg){fig-align="center" width="95%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Estimate-Biased.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Bootstrapping
+
+![](img/Schema_Bootstrap.png){fig-align="center" width="85%"}
+
+::: {.aside}
+Quelle: Allen Downey: [tinyurl.com/inference3](https://tinyurl.com/inference3)
+:::
+
+## Konfidenzintervall
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_Konfidenzintervall.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Confidence.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Simulation $H_0$
+
+![](img/Schema_Simulation.png){fig-align="center" width="85%"}
+
+::: {.aside}
+Quelle: Allen Downey: [tinyurl.com/inference3](https://tinyurl.com/inference3)
+:::
+
+## p-Wert (I/II)
+
+::: {.columns}
+
+:::: {.column width="50%"}
+<br>
+![](img/Meme_pWert.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/P0.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## p-Wert (II/II)
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_H0verwerfen.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/P1.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Fehlerarten
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_Fehlerarten.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Meme_H0akzeptieren.jpg){fig-align="center" width="80%"}
+::::
+:::
