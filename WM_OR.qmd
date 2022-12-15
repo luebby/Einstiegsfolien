@@ -1,0 +1,181 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Repetitorium (Zusatzveranstaltung)"
+format: 
+  revealjs:
+    theme: fom-dls.scss
+    logo: DLS-Logo.png
+    footer: "WM | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Schalten Sie bitte die Kamera an.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zk48/](https://tweedback.de/zk48/)
+
+
+## Freitag Abend?
+
+
+::: {.columns}
+
+:::: {.column width="50%"}
+**A**:
+
+<iframe src="https://giphy.com/embed/KzDqC8LvVC4lshCcGK" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+::::: aside
+[via GIPHY](https://giphy.com/gifs/floridageorgialine-smooth-florida-georgia-line-KzDqC8LvVC4lshCcGK)
+:::::
+::::
+
+
+
+:::: {.column width="50%"}
+**B**:
+
+<iframe src="https://giphy.com/embed/ZOrTflIqFmP0k" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+::::: aside
+[via GIPHY](https://giphy.com/gifs/just-sayin-ZOrTflIqFmP0k)
+:::::
+::::
+:::
+
+## UN Ziel 10: Reduced inequalities
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/71/embed?hasBorder=true&hasOpenSansFont=false" title="81% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Heutiges Thema &#127979;
+
+- Wiederholung
+
+::: {.center}
+<iframe src="https://giphy.com/embed/1iTH1WIUjM0VATSw" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+
+Übung macht die Meister:in!
+:::
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/rockymovie-movie-rocky-sylvester-stallone-1iTH1WIUjM0VATSw)
+:::
+
+## Wiederholung: Inferenz
+
+- Der uns interessierende Wert in der **(Ziel-)Population** wird [(wahrer) Wert des Parameter]{.blue} genannt: $\color{blue}{\beta, \mu, \pi, \ldots}$
+
+- Der auf Basis einer **Stichprobe** berechnete Wert wird [Schätzwert]{.green} genannt. $\color{green}{\hat{\beta}, \hat{\mu}=\bar{y}, \hat{\pi}=p,\ldots}$
+
+
+$$\color{green}{Schätzwert} = \color{blue}{Wert\,Parameter} + Verzerrung + Rauschen$$
+
+::: {.aside}
+[Bueno de Mesquita und Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data): Estimate = Estimand + Bias + Noise
+:::
+
+## Punktschätzung -- Unverzerrt
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_Unsicherheit.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Estimate.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Punktschätzung -- Verzerrt
+
+::: {.columns}
+
+:::: {.column width="50%"}
+<br>
+![](img/Meme_Bias.jpg){fig-align="center" width="95%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Estimate-Biased.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Bootstrapping
+
+![](img/Schema_Bootstrap.png){fig-align="center" width="85%"}
+
+::: {.aside}
+Quelle: Allen Downey: [tinyurl.com/inference3](https://tinyurl.com/inference3)
+:::
+
+## Konfidenzintervall
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_Konfidenzintervall.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Confidence.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Simulation $H_0$
+
+![](img/Schema_Simulation.png){fig-align="center" width="85%"}
+
+::: {.aside}
+Quelle: Allen Downey: [tinyurl.com/inference3](https://tinyurl.com/inference3)
+:::
+
+## p-Wert (I/II)
+
+::: {.columns}
+
+:::: {.column width="50%"}
+<br>
+![](img/Meme_pWert.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/P0.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## p-Wert (II/II)
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_H0verwerfen.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/P1.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Fehlerarten
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_Fehlerarten.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Meme_H0akzeptieren.jpg){fig-align="center" width="80%"}
+::::
+:::
