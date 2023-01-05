@@ -15,7 +15,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/zksb/](https://tweedback.de/zksb/)
+&#x1F4AA; [https://tweedback.de/zp99/](https://tweedback.de/zp99/)
 
 ## Wie geht es Ihnen heute auf der Jammerlappen-Skala?
 
@@ -98,7 +98,7 @@ wie kausale Effekte definiert werden können und warum die Bestimmung von kausal
 
 ## Praxistransfer
 
-Geben Sie bitte ein Beispiel für die Ebene Assoziation (oder Intervention oder Counterfactual) auf der kausalen Leiter nach Pearl in Ihrer beruflichen Praxis (bitte angeben). Definieren Sie dabei $X$, $Y$.
+Geben Sie bitte jeweils ein Beispiel für die Ebenen Assoziation, Intervention und Counterfactual auf der kausalen Leiter nach Pearl in Ihrer beruflichen Praxis (bitte angeben). Definieren Sie dabei $X$, $Y$.
 
 
 ## Heutiges Vorgehen
