@@ -1,0 +1,45 @@
+---
+title: "Wiss. Methoden -- Quantitative Datenanalyse"
+subtitle: "Fünfzehnter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "QD | Matthias Gehrke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zp9e](https://tweedback.de/zp9e)
+
+Vergessen Sie nicht, sich zu den Prüfungsleistungen anzumelden!
+
+
+## Wie ist Ihre Stimmung heute?
+
+![](img/Panda_cut.jpg){fig-align="center" width="60%"}
+
+
+::: aside
+Quelle:  
+[@pinterest](https://www.pinterest.de/pin/212091463691132048/)
+:::
+
+## UN Ziel 15: Life on land
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/100/embed?hasBorder=true&hasOpenSansFont=false" title="92% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+:::
+
+
+## Heutiges Thema &#127979;
+
+
+- Wiederholung, Wiederholung, Wiederholung
