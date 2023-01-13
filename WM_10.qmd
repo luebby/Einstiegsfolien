@@ -1,0 +1,102 @@
+---
+title: "Wissenschaftliche Methodik"
+subtitle: "Zehnter Termin"
+format: 
+  revealjs:
+    theme: fom-dls.scss
+    logo: DLS-Logo.png
+    footer: "WM | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Schalten Sie bitte die Kamera an.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zkjv](https://tweedback.de/zkjv)
+
+
+## Letzter Termin
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+:::: center
+**A**:
+
+<iframe src="https://giphy.com/embed/DhstvI3zZ598Nb1rFf" width="360" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+::::
+
+::: aside
+Quelle: [via GIPHY](https://giphy.com/gifs/theoffice-the-office-episode-23-tv-DhstvI3zZ598Nb1rFf)
+:::
+
+:::
+
+::: {.column width="50%"}
+
+:::: center
+**B**:
+
+<iframe src="https://giphy.com/embed/3oEjI80DSa1grNPTDq" width="360" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+::::
+
+::: aside
+Quelle: [via GIPHY](https://giphy.com/gifs/arrested-development-michael-cera-george-bluth-3oEjI80DSa1grNPTDq)
+:::
+
+:::
+
+:::
+
+
+
+## UN Ziel 10: Reduced inequalities
+
+::: {.center}
+
+
+
+<iframe src="https://upgrader.gapminder.org/q/71/embed?hasBorder=true&hasOpenSansFont=false" title="81% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Heutiges Thema
+
+- Ihre Fragen
+
+- Wiederholung
+
+
+::: {.center}
+<iframe src="https://giphy.com/embed/P8CK7bJMxyNv9RMSJC" width="240" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/thewatch-television-bbc-america-the-watch-P8CK7bJMxyNv9RMSJC)
+:::
+
+
+
+---
+
+## Zum Abschluss
+
+- Vielen Dank, mir hat es Spaß gemacht!
+
+- Ich hoffe Sie konnten etwas lernen!
+
+::: {.center}
+
+Für die anstehenden Prüfungsleistungen:
+
+<iframe src="https://giphy.com/embed/3ornk7TgUdhjhTYgta" width="300" height="140" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+
+::: {.aside}
+[via GIPHY](https://giphy.com/gifs/starwars-movie-star-wars-3ornk7TgUdhjhTYgta)
+:::

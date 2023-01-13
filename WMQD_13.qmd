@@ -1,0 +1,152 @@
+---
+title: "Wissenschaftliche Methoden - Quantitative Datenanalyse"
+subtitle: "Dreizehnter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "WMQD | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zp92](https://tweedback.de/zp92)
+
+<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung. Vergessen Sie nicht sich anzumelden!
+
+
+## Wie ist heute Ihre Stimmung auf der Mickey-Mouse-Skala?
+
+![](img/MickeyMouse.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@pinterest](https://www.pinterest.de/pin/2744449766104840)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## UN Ziel 13: Climate Action
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/85/embed?hasBorder=true&hasOpenSansFont=false" title="71% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Aus der Forschung
+
+```{r, echo=FALSE, fig.align="center", out.width="70%"}
+knitr::include_graphics("img/CI.png")
+```
+
+
+::: {.aside}
+[https://doi.org/10.1080/10691898.2020.1752859](https://doi.org/10.1080/10691898.2020.1752859)
+
+&#129351; ASA's most read collection 2020 (JSE).
+:::
+
+---
+
+## Heutiges Thema &#127979;
+
+
+- Kausale Inferenz
+
+```{r, echo=FALSE, fig.align="center", out.width="60%"}
+knitr::include_graphics("img/RedBlue-Causal.jpg")
+```
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;
+
+- was ein potenzielles Ergebnis (Potential Outcome) ist; was ein Counterfactual ist;
+wie kausale Effekte definiert werden können und warum die Bestimmung von kausalen Effekten so herausfordernd ist.
+
+- die Grundlagen von kausalen Graphen: was ein Pfeil aussagt; was unter einem Kausalen Modell verstanden werden kann; den Unterschied zwischen Beobachten und Handeln im Kontext kausaler Inferenz.
+
+- zwischen Beschreibung, Vorhersage und Kausaler Inferenz zu unterscheiden; warum diese Unterscheidung wichtig ist und was die Kausale Leiter ist.
+
+
+## Praxistransfer
+
+Geben Sie bitte ein Beispiel für die Ebene Assoziation (oder Intervention oder Counterfactual) auf der kausalen Leiter nach Pearl in Ihrer beruflichen Praxis (bitte angeben). Definieren Sie dabei $X$, $Y$.
+
+## Kausale Leiter
+
+- **Assoziation**: $Pr(y|x)$ &ndash; Beobachtung: *Was ist*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ beobachte? 
+
+- **Intervention**: $Pr(y|do(x))$ &ndash; Tun: *Was wäre*? Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ setze, d.h. manipuliere?
+
+- **Counterfactuals**: $Pr(y_x|x',y')$ &ndash; Vorstellung: *Was wäre gewesen*? Wir haben $X=x'$ und als Folge $Y=y'$ beobachtet. Wie wahrscheinlich ist dann $Y=y$, wenn ich $X=x$ gesetzt hätte?
+
+
+## Einstieg
+
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/786584973?h=de702f5e8c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:90%;height:90%;" title="KI-Campus_Teaser_neueste_Version"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+::: {.aside}
+Quelle: [https://vimeo.com/786584973](https://vimeo.com/786584973), Passwort: *FOMtest*
+:::
+
+## Erste Module
+
+- Das erste Tutorial führen wir gemeinsam durch: [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/)
+
+- Die Tutorien [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/) und [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_03/) in Partner:innenarbeit.
+
+Fortsetzung folgt ...
+
+## Kette, Gabel und umgedrehte Gabel
+
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/786588993?h=f137dc2122&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:65%;height:65%;" title="KI_Campus_Modulteile1-3.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+
+::: {.aside}
+Quelle: [vimeo.com/user99589857](vimeo.com/user99589857), Passwort: *FOMtest*
+:::
+
+
+## Noch ein Modul
+
+- Das Tutorium [https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_07/) bearbeiten wir wieder gemeinsam.
+
+<br>
+
+**Resourcen**:
+
+- Alle Tutorien: [https://github.com/luebby/WWWEKI](https://github.com/luebby/WWWEKI)
+
+- Begleitende Videos: [https://wwweki.gitlab.io/interviews/](https://wwweki.gitlab.io/interviews/)
+
+- KI-Campus Kurs: [https://ki-campus.org/courses/wwweki-2022](https://ki-campus.org/courses/wwweki-2022)
+
+## &#127908; Simpson's Paradox
+
+::: {.center}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nGqzoqXZch0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
+::: {.aside}
+Quelle: [The Raf: Summary Song #8 - Simpson's Paradox (Stats Parody - The Weeknd Blinding Lights)](https://youtu.be/nGqzoqXZch0)
+:::

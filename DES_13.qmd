@@ -1,0 +1,144 @@
+---
+title: "Datenerhebung und Statistik"
+subtitle: "Dreizehnter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "DES | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zpvq](https://tweedback.de/zpvq)
+
+<br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung. Vergessen Sie nicht sich anzumelden!
+
+Die **Studienbriefe** strukturieren Ihre Vor- und Nacharbeit.
+
+## Wie ist heute Ihre Stimmung auf der Mickey-Mouse-Skala?
+
+![](img/MickeyMouse.jpg){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@pinterest](https://www.pinterest.de/pin/2744449766104840)
+:::
+
+## Tipps für den Vorlesungserfolg
+
+- Kommen Sie zur Vorlesung!
+
+- Vermeiden Sie Ablenkung.
+
+- Arbeiten Sie die Vorlesung von Anfang an **vor** und nach. Nutzen Sie dafür die Studienbriefe.
+
+- Stellen Sie Fragen.
+
+- Unterstützen Sie sich gegenseitig.
+
+
+## UN Ziel 13: Climate Action
+
+::: center
+
+<iframe src="https://upgrader.gapminder.org/q/85/embed?hasBorder=true&hasOpenSansFont=false" title="71% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+
+## Heutiges Thema &#127979;
+
+- Schwerpunkt heute: Inferenzstatistik
+
+
+Was Sie lernen &#x1F469;&#x200D;&#x1F3EB;:
+
+- Sie stellen Null- und Alternativhypothesen auf.
+- Sie simulieren die Verteilung unter der Nullhypothese und ermitteln den p-Wert.
+- Sie lernen die Fehlermöglichkeiten beim statistischen Testen kennen.
+
+## Wiedereinstieg Inferenz
+
+- Der uns interessierende Wert in der **(Ziel-)Population** wird [(wahrer) Wert des Parameter]{.blue} genannt: $\color{blue}{\beta, \mu, \pi, \ldots}$
+
+- Der auf Basis einer **Stichprobe** berechnete Wert wird [Schätzwert]{.green} genannt. $\color{green}{\hat{\beta}, \hat{\mu}=\bar{y}, \hat{\pi}=p,\ldots}$
+
+
+$$\color{green}{Schätzwert} = \color{blue}{Wert\,Parameter} + Verzerrung + Rauschen$$
+
+::: {.aside}
+[Bueno de Mesquita und Fowler (2021)](https://press.princeton.edu/books/paperback/9780691214351/thinking-clearly-with-data): Estimate = Estimand + Bias + Noise
+:::
+
+## Simulation $H_0$
+
+![](img/Schema_Simulation.png){fig-align="center" width="85%"}
+
+::: {.aside}
+Quelle: Allen Downey: [tinyurl.com/inference3](https://tinyurl.com/inference3)
+:::
+
+## p-Wert (I/II)
+
+::: {.columns}
+
+:::: {.column width="50%"}
+<br>
+![](img/Meme_pWert.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/P0.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## p-Wert (II/II)
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_H0verwerfen.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/P1.gif){fig-align="center" width="100%"}
+::::
+:::
+
+## Fehlerarten
+
+::: {.columns}
+
+:::: {.column width="50%"}
+![](img/Meme_Fehlerarten.jpg){fig-align="center" width="75%"}
+::::
+
+:::: {.column width="50%"}
+![](img/Meme_H0akzeptieren.jpg){fig-align="center" width="80%"}
+::::
+:::
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `DES_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+
+- RStudio Cloud: In **Ihr** Projekt einloggen.  
+
+- Öffnen Sie die Fallstudie `Lotto.Rmd`.
+
+## &#127908; Hypothesenprüfung
+
+::: {.center}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HTdo6xjfFHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
+::: {.aside}
+Quelle: [The Raf: Summary Song #4 - SOS P-value (Stats Parody - Avicii S.O.S.)
+](https://youtu.be/HTdo6xjfFHI)
+:::
+

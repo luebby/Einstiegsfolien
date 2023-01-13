@@ -1,0 +1,69 @@
+---
+title: "Einführung Mathematik"
+subtitle: "Zehnter Termin"
+format: 
+  revealjs:
+    theme: fom.scss
+    logo: fom.jpg
+    footer: "EM | Karsten Lübke"
+    chalkboard: true
+
+---
+
+
+## Zur Erinnerung
+
+&#x1F4DB; Stellen Sie bitte ein Namensschild auf.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#129323; Während ich erkläre.
+
+&#x1F4AA; [https://tweedback.de/zp94](https://tweedback.de/zp94)
+
+
+## Wie ist Ihre Stimmung heute?
+
+![](img/Skala_kuenstliche_Intelligenz.png){fig-align="center" width="40%"}
+
+
+::: aside
+Quelle: [@mhaseneyer](https://twitter.com/mhaseneyer/)
+:::
+
+
+## Verantwortung übernehmen!
+
+::: {.columns}
+
+:::: {.column width="50%"}
+
+Arbeiten Sie die Vorlesung vor und nach. Nutzen Sie dafür die Videos und Übungsaufgaben.
+
+::::: aside
+Quelle: [sketchplanations](https://sketchplanations.com/the-accountability-ladder)
+:::::
+
+::::
+
+:::: {.column width="50"}
+![](img/sketchplanations-the-accountability-ladder.png){fig-align="center" }
+::::
+
+:::
+
+
+## Heutiges Thema &#127979;
+
+
+- Kap. 5.4: 2. Ableitung
+
+- Kap. 5.5: Kurvendiskussion
+
+
+
+## Kurvendiskussion
+
+![](img/Meme_Optimierung.jpg){fig-align="center" width="60%"}

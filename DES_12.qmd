@@ -1,11 +1,11 @@
 ---
-title: "Wissenschaftliche Methoden - Quantitative Datenanalyse"
-subtitle: "Elfter Termin"
+title: "Datenerhebung und Statistik"
+subtitle: "Zwölfter Termin"
 format: 
   revealjs:
     theme: fom.scss
     logo: fom.jpg
-    footer: "WMQD | Karsten Lübke"
+    footer: "DES | Karsten Lübke"
     chalkboard: true
 ---
 
@@ -15,7 +15,7 @@ format:
 
 &#x1F937; Stellen Sie Fragen.
 
-&#x1F4AA; [https://tweedback.de/zkqp](https://tweedback.de/zkqp)
+&#x1F4AA; [https://tweedback.de/zp69](https://tweedback.de/zp69)
 
 <br> Hinweise zu den **Prüfungsleistungen** finden Sie in der **Projektgruppe** zur Vorlesung. Vergessen Sie nicht sich anzumelden!
 
@@ -23,21 +23,23 @@ Die **Studienbriefe** strukturieren Ihre Vor- und Nacharbeit.
 
 
 
-## Wie ist Ihre Stimmung heute?
+## Wie geht es Ihnen heute auf der Jammerlappen-Skala?
 
-![](img/christian_lindner.png){fig-align="center" width="50%"}
+![](img/Jammerlappen.jpg){fig-align="center" width="50%"}
 
 
 ::: aside
-Quelle: [@MMagdowski](https://twitter.com/MMagdowski/status/1443448084407726084/)
+Quelle: [@dnlmnhrdt](https://twitter.com/dnlmnhrdt/status/1328774026014183426)
 :::
 
 
 
-## UN Ziel 11: Sustainable cities and communities
+## UN Ziel 12: Responsible consumption and production
 
 ::: center
-<iframe src="https://upgrader.gapminder.org/q/13/embed?hasBorder=true&hasOpenSansFont=false" title="77% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
+<iframe src="https://upgrader.gapminder.org/q/58/embed?hasBorder=true&hasOpenSansFont=false" title="70% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+
 :::
 
 
@@ -123,7 +125,7 @@ Quelle: Allen Downey: [tinyurl.com/inference3](https://tinyurl.com/inference3)
 
 ## Fallstudie &#x1F4BB;
 
-- Lokal: RStudio durch klick auf `WMQD_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
+- Lokal: RStudio durch klick auf `DES_WiSe22.Rproj` starten oder RStudio aufrufen, das letzte Projekt müsste automatisch geladen werden.
 
 - RStudio Cloud: In **Ihr** Projekt einloggen.  
 
@@ -137,17 +139,4 @@ Quelle: Allen Downey: [tinyurl.com/inference3](https://tinyurl.com/inference3)
 
 ::: {.aside}
 Quelle: [https://www.causeweb.org/cause/resources/fun/songs/call-it-maybe](https://www.causeweb.org/cause/resources/fun/songs/call-it-maybe)
-:::
-
-
-## Ende -- aber nur für dieses Jahr
-
-<br>
-
-::: {.center}
-<iframe src="https://giphy.com/embed/2IfqRSy8jfOVO" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-:::
-
-::: {.aside}
-<p><a href="https://giphy.com/gifs/christmas-smiling-2IfqRSy8jfOVO">via GIPHY</a></p>
 :::
