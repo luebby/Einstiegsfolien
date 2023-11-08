@@ -1,0 +1,360 @@
+---
+title: "Wissenschaftliche Methoden - Quantitative Datenanalyse"
+subtitle: "Siebter Termin"
+format: 
+  revealjs:
+    theme: fom-dls.scss
+    logo: dls.png
+    footer: "WMQD | Karsten Lübke"
+    chalkboard: true
+---
+
+## Zur Erinnerung
+
+&#x1F4DB; Schalten Sie bitte Ihre Kamera an.
+
+&#x270F; Arbeiten Sie aktiv mit.
+
+&#x1F937; Stellen Sie Fragen.
+
+&#x1F4AA; [https://tweedback.de/zmbu/quiz](https://tweedback.de/zmbu/quiz)
+
+## Learning Pit
+
+::: center
+**Sie** schaffen es aus der Grube
+:::
+
+![](img/TheLearningPit.png){fig-align="center" width="40%"}
+
+::: aside
+Quelle: [Sketschplanations](https://sketchplanations.com/the-learning-pit)
+:::
+
+
+## UN Ziel 7: Affordable and clean energy
+
+::: center
+<iframe src="https://upgrader.gapminder.org/q/59/embed?hasBorder=true&hasOpenSansFont=false" title="83% of people get this question wrong" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+## Heutiges Thema &#127979;
+
+- Explorative Datenanalyse und Deskriptive Statistik: Schwerpunkt **[metrische]{.green}** Daten.
+
+- Besprechung Hausarbeit.
+
+- Hinweise Sprachmodelle.
+
+
+## Was Sie lernen &#x1F469;&#x200D;&#x1F3EB; 
+
+- Sie lernen den **[Korrelationskoeffizient]{.green}** kennen.
+
+![](https://imgs.xkcd.com/comics/correlation.png){fig-align="center" width="70%"}
+
+::: {.aside}
+Abbildung: [https://xkcd.com/552](https://xkcd.com/552)
+:::
+
+## Streudiagramm
+
+::: {.center}
+<iframe src="https://fomshinyapps.shinyapps.io/Korrelation/" width="475" height="535"></iframe>
+:::
+
+::: {.aside}
+[https://fomshinyapps.shinyapps.io/Korrelation/](https://fomshinyapps.shinyapps.io/Korrelation/)
+:::
+
+
+## Korrelation (I/II)
+
+- **Kovarianz** beschreibt den linearen Zusammenhang zweier metrischer Merkmale: $s_{xy}=\frac{1}{n-1}\sum_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})$: Die Werte beider Variablen einer Beobachtung werden mit dem jeweiligen Mittelwert der Variable verglichen. Vom Produkt der gemeinsamen Abweichungen wird $\approx$ Mittelwert berechnet.
+
+- Der **Korrelationskoeffizient** nach Pearson $r=\frac{s_{xy}}{sd_x \cdot sd_y}$ normiert die Kovarianz auf den Wertebereich $-1$ bis $+1$ durch Division der Kovarianz durch das Produkt der Standardabweichungen.
+
+## Korrelation (II/II)
+
+- Korrelationskoeffizienten $r>0$ zeigen einen positiven linearen Zusammenhang an, $r<0$ einen negativen. Je größer $|r|$, desto größer ist der lineare Zusammenhang.
+
+- **Achtung**: Korrelation heißt nicht zwangsläufig Kausalität, keine 
+Korrelation heißt nicht zwangsläufig kein Zusammenhang oder keine Kausalität. Beispiele unter [http://www.tylervigen.com/spurious-correlations](http://www.tylervigen.com/spurious-correlations).
+
+## Ohne Variation, keine Korrelation
+
+![](img/Meme_Variation-Korrelation.jpg){fig-align="center" width="35%"}
+
+## Visualisierung
+
+Erst visualisieren, dann korrelieren! $\bar{x}, \bar{y}, sd_x, sd_y,r_{x,y}$ sind nahezu konstant.
+
+::: {.center}
+<iframe src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif" width="750" height="435"></iframe>
+:::
+
+::: {.aside}
+[https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs/)
+:::
+
+## Korrelation und Kausalität
+
+::: center
+<iframe src="https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation" title="" width="100%" height="500" style="border:none;"></iframe>
+:::
+
+::: aside
+Quelle: [https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation](https://www.causeweb.org/cause/resources/fun/songs/correlation-does-not-imply-causation)
+:::
+
+
+## Fallstudie &#x1F4BB;
+
+- Lokal: RStudio durch klick auf `WMQD-WiSe-2023.Rproj` starten.
+
+- posit Cloud: In **Ihr** Projekt einloggen.  
+
+Datei `2b_Fueleconomy.qmd` im Ordner `fallstudie` öffnen.
+
+# Hausarbeit
+
+## Wiederholung: Eine Wahrheit
+
+<center>
+<img src="img/Meme_Nuggets-Jewels.jpg" alt="Meme" width="700"/>
+</center>
+
+::: {.aside}
+[Best (2002)](http://www.statlit.org/pdf/2002BestASA.pdf)
+:::
+
+## Viele Fragezeichen
+
+- Wer hat aus welchen Gründen die Statistik veröffentlicht?
+
+- Wer wurde wie befragt oder untersucht?
+
+- Wie wurden die Daten zusammengefasst? 
+
+- Wie ist die Statistik einzuordnen?
+
+- Warum ist sie so wie sie ist?
+
+## Warum: *MOMENT mal!*?
+
+- Evidenzbasierung ist wichtig, aber schwierig.
+
+- Statistiken sind nicht einfach *da* -- sie haben eine Entstehunggeschichte.
+
+- Sie sollen lernen diese (kritisch) zu hinterfragen.
+
+- Mnemoniks können dabei helfen.
+
+## Brandolinis Gesetz
+
+![](img/sketchplanations-the-bs-asymmetry-principle.png){fig-align="center" width="55%"}
+
+::: {.aside}
+Quelle: [Sketchplanations](https://sketchplanations.com/the-bs-asymmetry-principle)
+:::
+
+
+## Aufgabenstellung
+
+- Suchen Sie einen aktuellen Medienartikel, der an zentraler Stelle mit einer Statistik (auch Tabelle oder statistische Abbildung oder Modell) informiert bzw. argumentiert. 
+
+- Tipp: Suchen Sie einen, der auch Hintergrundinformationen zu den Daten enthält, z.B. als Link zur Studie. 
+
+- Hinterfragen Sie eine zentrale Statistik kritisch entlang der aufgeführten Themen: **M**essung, **O**rientierung, **M**anipulation, **E**rhebung, **N**atürliche Variation, **T**reiber
+
+## **M**essung: 
+
+Wie wurde das Merkmal definiert und gemessen? Wie wurden die Werte zusammengefasst, und ist das angemessen? Handelt es sich bei dem angegebenen Wert um eine Summe, einen Anteil, Mittelwert oder Median -- und insbesondere von was? Was steht im Nenner -- und ist das der richtige Bezug? 
+
+## **O**rientierung: 
+
+Womit sollte die Zahl verglichen werden? Z.B., was ist z.B. die Grund- bzw. Basisrate? Ohne Vergleichsmöglichkeit keine Orientierung, ohne Variation keine Korrelation! 80% oder 0,8% -- beides kann viel oder wenig sein. Wie verhält sich die Zahl im Vergleich zu einer anderen Zeit oder einem anderen Ort?
+
+## **M**anipulation: 
+
+Versucht die Abbildung oder Zahl oder die Interpretation in eine Richtung zu lenken? Wer könnte daran ein Interesse haben? Warum?
+
+## **E**rhebung: 
+
+Wie, wann, wo und warum wurden die Daten erhoben? Wie wurden die Beobachtungen ausgewählt? War es eine zufällige Stichprobe, eine Gelegenheitsstichprobe oder Vollerhebung? Könnte die Stichprobe verzerrt sein? Auf wen oder was können die Daten verallgemeinert sein, was ist die (Ziel-)Population? War es eine Beobachtungsstudie oder ein Experiment?
+
+## **N**atürliche Variation: 
+
+Statistiken schwanken schon rein zufällig – auch gerne zurück zur Mitte^[Stichwort: Regression zur Mitte], aber auch mal ins Extrem. Eine andere Stichprobe liefert i.d.R. auch ein anderes Ergebnis. Wie anders? Auch zufällig kann es Zusammenhänge und Unterschiede geben. Kann Zufall eine plausible Erklärung für ein besonderes Ergebnis sein?
+
+## **T**reiber: 
+
+Die Welt ist komplex, es gibt viele Abhängigkeiten. Z.B. können hinter positiven Korrelationen negative kausale Zusammenhänge verborgen sein. Wurden wichtige Kovariablen vergessen? Was könnte hier (noch) eine Rolle spielen?
+
+## Gliederung (1/3)
+
+1. Einleitung. Fassen Sie hier den Artikel kurz zusammen. Gehen Sie dabei auf die Bedeutung der Statistik für die Argumentation ein. Länge ca. 0,5-1 Seite.
+
+2. MOMENT!. Diskutieren Sie die Statistik anhand der sechs Aspekte von MOMENT. Insgesamt ca. 3-5 Seiten. Je nach Relevanz für den Artikel freie Aufteilung Seitenanzahl auf die Unterkapitel.
+
+## Gliederung (2/3)
+
+3. Schlussfolgerung. Kann die Aussage des Artikels so bestehen bleiben, oder sollte diese revidiert werden? Begründen Sie ihre Einschätzung. Gibt es offene Punkte? Länge ca. 0,5-1 Seite.
+
+4. Persönliches Fazit. Begründen Sie, warum Sie diesen Artikel ausgewählt haben (z.B. über Bezug zum Studiengang). Was haben Sie in der Hausarbeit gelernt, was nehmen Sie mit, wo sehen Sie Verbesserungspotential, perönlich und in der Ausbildung. Länge ca. ca. 0,5-1 Seite.
+
+## Gliederung (3/3)
+
+- Anhang. Auflistung der verwendeten Tools. Führen Sie auf welche Dienste Sie für die Erstellung dieser Hausarbeit wofür verwendet haben.
+
+<br>
+
+
+Z.B.:
+
+- ChatGPT zur sprachlichen Verbesserung.
+
+
+## Anmeldung und Formalia
+
+- Anmeldefrist: 15.12.2023, Abgabefrist: 15.01.2024.
+
+- Geben Sie bei der Anmeldung das Thema in Form der Überschrift des Artikels an. Z.B. für den Artikel *Vorstandsfrauen verdienen mehr als Männer*, ergänzt um *Moment mal!*: 
+
+  **Vorstandsfrauen verdienen mehr als Männer -- Moment mal!**
+
+- Für die formale Gestaltung Ihrer Arbeit gilt der FOM Leitfaden. Sie müssen ein pdf des gewählten Artikels sowie ggf. der Primärstudie als Quellen mit abgeben.
+
+## &#x1F469;&#x200D;&#x1F3EB; Rekonstruktion
+
+![](img/Meme_DatenKonstruiert.jpg){fig-align="center" width="75%"}
+
+# Sprachmodelle
+
+## Verbreitung
+
+Nutzen Sie ChatGPT und Co.?
+
+- **A**: (Fast) täglich.
+
+- **B**: 1-2 mal die Woche.
+
+- **C**: Ich habe ein bisschen damit gespielt.
+
+- **D**: Ich habe noch keine eigenen Erfahrungen damit gemacht.
+
+::: aside
+[https://tweedback.de/zmbu/quiz](https://tweedback.de/zmbu/quiz)
+:::
+## Generative Künstliche Intelligenz
+
+- KI Tools bieten viele Möglichkeiten -- auch für Ihr Lernen.
+
+- Allerdings sind damit auch Gefahren und ethische Fragestellungen verbunden.^[Siehe z.B. Vortrag [Unblacking the Box of ChatGPT](https://www.bigdataliteracy.net/2023/02/24/workshop-recording-chatgpt/).]
+
+- In dieser Vorlesung dürfen Sie Tools wie [HuggingChat](https://huggingface.co/chat) nutzen, Sie müssen es aber nicht.
+
+## Sprachmodelle
+
+- ChatGPT und Co. sind im Kern eine mathematische Formel mit einer zufälligen Ausgabe.
+
+- Sprachmodelle modellieren Sprache, nicht Gedanken, Wissen oder Gefühle.
+
+- Wir haben viel über unsere Gedanken, Wissen und Gefühle geschrieben. Dies ist die Datenbasis von Sprachmodellen.
+
+- Die Meinungen und Ziele der Entwickler:innen fließen in die Modelle ein.
+
+## Statistik auf Steroiden
+
+![](img/Meme_StatistikSteroiden.jpg){fig-align="center" width="75%"}
+
+## Ein erstes Beispiel
+
+Welches Wort folgt wohl häufiger auf die Wortfolge?
+
+> Der Ball ist ___
+
+- **A**: rund.
+
+- **B**: eckig.
+
+
+## Abkürzung GPT
+
+- **G**eneratives Modell. Ziel ist es Texte zu erzeugen, nicht die Klassifikation in z.B. Spam/Nicht-Spam.
+
+- **P**retrained. Das Modell wurde zunächst auf einer (sehr) großen Datenmenge ohne spezifische Anwendung entwickelt. (Ein *Foundation* Model.)
+
+- **T**ransformer. Spezielle Modellarchitektur, die es ermöglicht komplexe Beziehungen in hochdimensionalen Matrizen abzubilden
+
+## Auto Regression
+
+Sei $x_t$ das nächste Wort, so wird versucht, die Wahrscheinlichkeit dieses gegeben die vorherigen Wörter $x_0, \ldots, x_{t-1}$ zu bestimmen:
+
+$$Pr(x_t | x_{0:t-1}) = f(x_{0:t-1})$$
+
+Die Funktion $f(\cdot)$ hat im Fall von GPT-3 $\approx$ 175.000.000.000 Parameter und wird für $\approx$ 50.000 Wörter $x_t$ optimiert.
+
+
+## Ein zweites Beispiel
+
+Welches Wort folgt wohl häufiger auf die Wortfolge?
+
+> Der Ball ist ___
+
+- **A**: rund.
+
+- **B**: im Tor.
+
+## Das zweite Beispiel im Kontext
+
+Welches Wort folgt wohl häufiger auf die Wortfolge?
+
+> Elfmeter für Hannover 96. Der Schütze schießt. Der Ball ist ___
+
+- **A**: rund.
+
+- **B**:  im Tor.
+
+## Sprachmodelle in der Vorlesung
+
+::: {.columns}
+:::: {.column width="60%"}
+
+- ChatGPT und Co. haben das Potential, den Prozess vom Problem zur Lösung zu erleichtern und das Ergebnis zu verbessern.
+
+- Sie haben die Gefahr, dass bequeme Abkürzungen genommen werden ([*Kognitiver Zucker*](https://mastodon.oeru.org/@amills/109916488172281529)).
+
+- Sie erfordern kritisches Denken :point_right: [Quelle: [@shadbush](https://twitter.com/shadbush/status/1616007675145240576)]{.small}
+::::
+
+:::: {.column width="40%"}
+![](img/ChatGPT_SaveUse.jpeg){fig-align="center" width="100%"}
+::::
+:::
+
+## KI vertrauen (?)
+
+![](img/Time_BardError.png){fig-align="center" width="100%"}
+
+&#x1F913; Die kausale Aussage ist natürlich so nicht korrekt...
+
+::: {.aside}
+[https://time.com/6254226/alphabet-google-bard-100-billion-ai-error/](https://time.com/6254226/alphabet-google-bard-100-billion-ai-error/)
+:::
+
+
+## Hinweise Sprachmodelle
+
+- Es ist Ihre Entscheidung ob und welche Eingaben Sie machen.
+
+- Glauben Sie ChatGPT und Co. kein Wort. Hinterfragen Sie die Ausgabe kritisch.  Bedenken Sie immer mögliche Fehler, Verzerrungen und Stereotype. Plausibel klingen tut es so oder so.
+
+## Lauras Sketchnote
+
+![](img/2023-02-23_Sketchnote_ChatGPT_v3.png){fig-align="center" width="50%"}
+
+:::{.aside}
+[{{< iconify logos linkedin-icon >}} Laura Platte ](https://www.linkedin.com/feed/update/urn:li:activity:7034940085422706688/)
+:::
+
